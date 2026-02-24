@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — History & Deep Meta ───
+// ─── TrendClaw — History & Deep Meta ───
 //
 // 1. Saves daily snapshots to enable trending diff (new entries, dropped, risers)
 // 2. Fetches deep metadata from GitHub API (issues, topics, commit activity)

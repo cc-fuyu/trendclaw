@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.openclaw.ai/schema/config.json",
-  "_comment": "GitHub Trending Scout — Full OpenClaw Integration Example",
+  "_comment": "TrendClaw — Full OpenClaw Integration Example",
 
   "agents": {
     "defaults": {
@@ -13,9 +13,9 @@
   },
 
   "mcpServers": {
-    "trending-scout": {
+    "trendclaw": {
       "command": "node",
-      "args": ["./node_modules/openclaw-github-trending-scout/dist/mcp-server.js"],
+      "args": ["./node_modules/trendclaw/dist/mcp-server.js"],
       "env": {
         "OPENAI_API_KEY": "${OPENAI_API_KEY}",
         "SCOUT_LLM_BACKEND": "openai",
@@ -25,7 +25,7 @@
   },
 
   "plugins": {
-    "trending-scout": {
+    "trendclaw": {
       "llm": {
         "backend": "openai",
         "model": "gpt-4.1-mini"
@@ -40,12 +40,12 @@
   },
 
   "tools": {
-    "alsoAllow": ["lobster", "github_trending_scout"]
+    "alsoAllow": ["lobster", "trendclaw_scout"]
   },
 
   "_cron_examples": {
-    "daily_digest": "openclaw cron add --name 'Trending Scout Daily' --cron '0 9 * * *' --tz 'America/New_York' --session isolated --model sonnet --announce --message 'Run github_trending_scout with formats digest,tweet_thread'",
-    "weekly_newsletter": "openclaw cron add --name 'Trending Scout Weekly' --cron '0 10 * * 1' --tz 'America/New_York' --session isolated --model opus --announce --message 'Run github_trending_scout with period weekly, formats newsletter,blog_post'",
-    "lobster_workflow": "openclaw cron add --name 'Trending Scout Pipeline' --cron '0 9 * * *' --session isolated --message '/lobster workflows/trending-scout.lobster'"
+    "daily_digest": "openclaw cron add --name 'TrendClaw Daily' --cron '0 9 * * *' --tz 'America/New_York' --session isolated --model sonnet --announce --message 'Run trendclaw_scout with formats digest,tweet_thread'",
+    "weekly_newsletter": "openclaw cron add --name 'TrendClaw Weekly' --cron '0 10 * * 1' --tz 'America/New_York' --session isolated --model opus --announce --message 'Run trendclaw_scout with period weekly, formats newsletter,blog_post'",
+    "lobster_workflow": "openclaw cron add --name 'TrendClaw Pipeline' --cron '0 9 * * *' --session isolated --message '/lobster workflows/trendclaw.lobster'"
   }
 }

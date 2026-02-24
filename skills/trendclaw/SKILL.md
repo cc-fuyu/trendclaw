@@ -1,4 +1,4 @@
-# GitHub Trending Scout
+# TrendClaw
 
 Scrape GitHub Trending, enrich with deep metadata, AI-analyze trends with history comparison, and generate multi-format developer content (digest, tweet thread, blog post, newsletter).
 
@@ -17,38 +17,38 @@ The scout runs as an MCP server. Configure in your openclaw config:
 ```json
 {
   "mcpServers": {
-    "trending-scout": {
+    "trendclaw": {
       "command": "node",
-      "args": ["./node_modules/openclaw-github-trending-scout/dist/mcp-server.js"]
+      "args": ["./node_modules/trendclaw/dist/mcp-server.js"]
     }
   }
 }
 ```
 
 ### Mode 2: Plugin Tool
-If installed as a plugin, use the `github_trending_scout` tool directly:
+If installed as a plugin, use the `trendclaw_scout` tool directly:
 ```
-/github_trending_scout language=typescript formats=digest,tweet_thread
+/trendclaw_scout language=typescript formats=digest,tweet_thread
 ```
 
 ### Mode 3: Lobster Workflow
 For deterministic multi-step execution with approval gates:
 ```
-/lobster workflows/trending-scout.lobster period=daily formats=digest,newsletter
+/lobster workflows/trendclaw.lobster period=daily formats=digest,newsletter
 ```
 
 ### Mode 4: Cron Automation
 Set up daily automated reports:
 ```bash
-openclaw cron add --name "Trending Scout" --cron "0 9 * * *" --session isolated --announce \
-  --message "Run github_trending_scout with formats digest,tweet_thread"
+openclaw cron add --name "TrendClaw" --cron "0 9 * * *" --session isolated --announce \
+  --message "Run trendclaw_scout with formats digest,tweet_thread"
 ```
 
 ### Mode 5: Heartbeat Integration
 Add to your HEARTBEAT.md:
 ```
 - Check if today's GitHub trending digest has been generated
-  - If not and it's past 9AM: Run github_trending_scout and announce the digest
+  - If not and it's past 9AM: Run trendclaw_scout and announce the digest
 ```
 
 ## Tool Parameters

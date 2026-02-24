@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Scraper Agent ───
+// ─── TrendClaw — Scraper Agent ───
 //
 // Scrapes github.com/trending to extract repo data.
 // No API key needed — parses the public HTML page.

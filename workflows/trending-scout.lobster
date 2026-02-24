@@ -1,12 +1,12 @@
-# ─── GitHub Trending Scout — Lobster Workflow ───
+# ─── TrendClaw — Lobster Workflow ───
 # Deterministic multi-step pipeline with approval gates.
-# Triggered by cron or on-demand via: /lobster trending-scout.lobster
+# Triggered by cron or on-demand via: /lobster trendclaw.lobster
 #
 # Pipeline: Scrape → Enrich → Analyze → Generate → Publish
 # Each step is a tool call with structured I/O.
 # Approval gates before publishing to external channels.
 
-name: trending-scout
+name: trendclaw
 description: >
   Scrape GitHub Trending, enrich with deep metadata, AI-analyze trends,
   generate multi-format developer content, and publish to configured channels.

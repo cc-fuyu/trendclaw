@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Orchestrator ───
+// ─── TrendClaw — Orchestrator ───
 //
 // Full pipeline: Scrape → Deep Meta → Diff → Analyze → Generate
 // Now with: multi-LLM backend, history comparison, GitHub API deep data.
@@ -22,7 +22,7 @@ const DEFAULT_CONFIG: PluginConfig = {
 };
 
 /**
- * Run the complete Trending Scout pipeline.
+ * Run the complete TrendClaw pipeline.
  */
 export async function runScout(
   params: ScoutParams,
@@ -43,7 +43,7 @@ export async function runScout(
   const llmLabel = backendLabel(cfg.llm);
 
   console.log(`\n${"═".repeat(56)}`);
-  console.log(`  🔭 GitHub Trending Scout — Pipeline`);
+  console.log(`  🔭 TrendClaw — Pipeline`);
   console.log(`  Period: ${period} | Top: ${topN} | Lang filter: ${filterLang || "any"}`);
   console.log(`  Output: ${language} | Formats: ${formats.join(", ")}`);
   console.log(`  LLM: ${llmLabel}`);

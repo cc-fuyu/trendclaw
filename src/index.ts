@@ -1,6 +1,6 @@
-// ─── GitHub Trending Scout — OpenClaw Plugin Entry ───
+// ─── TrendClaw — OpenClaw Plugin Entry ───
 //
-// Registers the `github_trending_scout` tool with OpenClaw.
+// Registers the `trendclaw_scout` tool with OpenClaw.
 // Supports multi-LLM backend: OpenAI / Ollama / OpenClaw Gateway.
 
 import { Type } from "@sinclair/typebox";
@@ -31,11 +31,11 @@ export default function (api: any) {
     llm: { ...DEFAULT_LLM, ...(userConfig.llm || {}) },
   };
 
-  console.log("[trending-scout] Plugin loaded");
+  console.log("[trendclaw] Plugin loaded");
 
   api.registerTool(
     {
-      name: "github_trending_scout",
+      name: "trendclaw_scout",
       description: `Scrape GitHub Trending repos, AI-analyze them (with deep GitHub metadata and history comparison), and generate ready-to-publish developer content.
 
 Pipeline: Scrape → Deep Meta → History Diff → Analyze → Generate Content
@@ -83,7 +83,7 @@ Use when the user wants to:
           const result = await runScout(params, pluginConfig);
 
           const lines: string[] = [
-            `## 🔭 GitHub Trending Scout Report`,
+            `## 🔭 TrendClaw Report`,
             "",
             `**Period:** ${result.scrape.period} | **Repos:** ${result.scrape.repos.length} | **LLM:** ${result.metadata.llmBackend}:${result.metadata.model} | **Duration:** ${(result.metadata.durationMs / 1000).toFixed(1)}s`,
             "",
@@ -125,7 +125,7 @@ Use when the user wants to:
     { optional: true },
   );
 
-  console.log('[trending-scout] Tool "github_trending_scout" registered');
+  console.log('[trendclaw] Tool "trendclaw_scout" registered');
 }
 
 export { runScout } from "./orchestrator.js";

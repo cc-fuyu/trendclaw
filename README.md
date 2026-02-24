@@ -1,4 +1,4 @@
-# 🔭 GitHub Trending Scout
+# 🔭 TrendClaw
 
 [English](./README.md) | [中文](./README_CN.md)
 
@@ -14,12 +14,12 @@ This project isn't just *compatible* with OpenClaw; it's *built for* OpenClaw. I
 
 | Feature | How We Use It | Value Proposition |
 | :--- | :--- | :--- |
-| **1. Lobster Workflow** | The entire pipeline is defined in `trending-scout.lobster`, a deterministic, multi-step workflow with approval gates. | **Reliable & Resumable**: Guarantees execution order, survives failures, and allows human-in-the-loop for publishing. |
+| **1. Lobster Workflow** | The entire pipeline is defined in `trendclaw.lobster`, a deterministic, multi-step workflow with approval gates. | **Reliable & Resumable**: Guarantees execution order, survives failures, and allows human-in-the-loop for publishing. |
 | **2. Cron Jobs** | A one-command setup script (`scripts/setup-cron.sh`) registers a daily job with OpenClaw's native scheduler. | **Automated & Effortless**: Set it and forget it. Get daily trending reports delivered to your chat app. |
-| **3. MCP Server** | Runs as a native MCP server (`dist/mcp-server.js`), exposing `github_trending_scout` as a tool to any agent. | **Interoperable & Composable**: Any MCP-compatible agent (OpenClaw, Claude Desktop) can use this as a building block. |
+| **3. MCP Server** | Runs as a native MCP server (`dist/mcp-server.js`), exposing `trendclaw_scout` as a tool to any agent. | **Interoperable & Composable**: Any MCP-compatible agent (OpenClaw, Claude Desktop) can use this as a building block. |
 | **4. Heartbeat** | Provides a `HEARTBEAT.md` template to integrate trending checks into the agent's regular awareness cycle. | **Context-Aware & Proactive**: The agent can decide *when* to run a scout based on conversation or idleness. |
 | **5. Announce Channel** | Cron jobs use `--announce` and `--channel` to push generated content directly to WhatsApp, Telegram, Discord, etc. | **Direct Delivery**: No need to check a file; the report comes to you. |
-| **6. Skill & Plugin** | Packaged as a discoverable Skill on ClawHub and an installable npm package. | **Easy Distribution**: `openclaw plugins install trending-scout` is all it takes. |
+| **6. Skill & Plugin** | Packaged as a discoverable Skill on ClawHub and an installable npm package. | **Easy Distribution**: `openclaw plugins install trendclaw` is all it takes. |
 
 ## 🚀 Quick Start (Standalone CLI)
 
@@ -33,17 +33,17 @@ For quick tests, you can run it as a standard Node.js CLI tool.
 2.  **Run Scout**:
     ```bash
     # Run with default OpenAI backend
-    npx trending-scout --formats digest,tweet_thread
+    npx trendclaw --formats digest,tweet_thread
 
     # Run with local Ollama model (e.g., Llama 3)
-    npx trending-scout --backend ollama --model llama3
+    npx trendclaw --backend ollama --model llama3
     ```
 
 3.  **Check Output**: Results are saved in `./scout_output/`.
 
 ## 📖 Real Demo Output (Feb 24, 2026)
 
-This is the real, unedited output from running `npx trending-scout --top 10 --formats digest,tweet_thread,newsletter`.
+This is the real, unedited output from running `npx trendclaw --top 10 --formats digest,tweet_thread,newsletter`.
 
 <details>
 <summary><strong>📄 Digest</strong> &mdash; A scannable Markdown summary.</summary>
@@ -127,8 +127,8 @@ Stay tuned for more must-read developer trends tomorrow!
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/github-trending-scout.git
-cd github-trending-scout
+git clone https://github.com/your-username/trendclaw.git
+cd trendclaw
 
 # Install dependencies
 npm install

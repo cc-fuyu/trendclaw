@@ -1,14 +1,14 @@
-# Heartbeat Checklist — GitHub Trending Scout
+# Heartbeat Checklist — TrendClaw
 
 Add the following items to your agent's HEARTBEAT.md to integrate trending monitoring
 into your regular heartbeat cycle.
 
 ---
 
-## Trending Scout Checks
+## TrendClaw Checks
 
 - Check if it's past the configured scout time (default: 9:00 AM) and today's digest hasn't been generated yet
-  - If yes: Run `/github_trending_scout` with default settings and announce the digest
+  - If yes: Run `/trendclaw_scout` with default settings and announce the digest
   - If no: Skip
 
 - Check `~/scout_output/` for yesterday's snapshot

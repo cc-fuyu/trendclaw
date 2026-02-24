@@ -1,4 +1,4 @@
-# 🔭 GitHub Trending Scout (中文版)
+# 🔭 TrendClaw (中文版)
 
 [English](./README.md) | [中文](./README_CN.md)
 
@@ -14,12 +14,12 @@
 
 | 特性 | 我们如何使用 | 价值主张 |
 | :--- | :--- | :--- |
-| **1. Lobster 工作流** | 整个 pipeline 在 `trending-scout.lobster` 中定义，这是一个带有人工审批门的确定性、多步骤工作流。 | **可靠与可恢复**：保证执行顺序，能在失败后恢复，并允许人工介入发布环节。 |
+| **1. Lobster 工作流** | 整个 pipeline 在 `trendclaw.lobster` 中定义，这是一个带有人工审批门的确定性、多步骤工作流。 | **可靠与可恢复**：保证执行顺序，能在失败后恢复，并允许人工介入发布环节。 |
 | **2. Cron 作业** | 一键式设置脚本 (`scripts/setup-cron.sh`) 在 OpenClaw 的原生调度器中注册一个每日作业。 | **自动化与轻松**：一次设置，永久有效。每天将趋势报告推送到你的聊天应用。 |
-| **3. MCP 服务器** | 作为一个原生 MCP 服务器运行 (`dist/mcp-server.js`)，将 `github_trending_scout` 工具暴露给任何代理。 | **互操作与可组合**：任何兼容 MCP 的代理（OpenClaw、Claude Desktop 等）都可以将其作为构建块。 |
+| **3. MCP 服务器** | 作为一个原生 MCP 服务器运行 (`dist/mcp-server.js`)，将 `trendclaw_scout` 工具暴露给任何代理。 | **互操作与可组合**：任何兼容 MCP 的代理（OpenClaw、Claude Desktop 等）都可以将其作为构建块。 |
 | **4. Heartbeat 心跳** | 提供一个 `HEARTBEAT.md` 模板，将趋势检查集成到代理的常规感知周期中。 | **情境感知与主动**：代理可以根据对话或空闲状态决定*何时*运行 scout。 |
 | **5. Announce 频道** | Cron 作业使用 `--announce` 和 `--channel` 将生成的内容直接推送到 WhatsApp、Telegram、Discord 等。 | **直接交付**：无需检查文件，报告直接送到你手中。 |
-| **6. Skill 与插件** | 打包为在 ClawHub 上可发现的 Skill 和可安装的 npm 包。 | **轻松分发**：只需 `openclaw plugins install trending-scout` 即可。 |
+| **6. Skill 与插件** | 打包为在 ClawHub 上可发现的 Skill 和可安装的 npm 包。 | **轻松分发**：只需 `openclaw plugins install trendclaw` 即可。 |
 
 ## 🚀 快速开始 (独立 CLI)
 
@@ -33,17 +33,17 @@
 2.  **运行 Scout**：
     ```bash
     # 使用默认的 OpenAI 后端运行
-    npx trending-scout --formats digest,tweet_thread --output-lang Chinese
+    npx trendclaw --formats digest,tweet_thread --output-lang Chinese
 
     # 使用本地的 Ollama 模型运行 (例如 Llama 3)
-    npx trending-scout --backend ollama --model llama3
+    npx trendclaw --backend ollama --model llama3
     ```
 
 3.  **查看输出**：结果保存在 `./scout_output/` 目录中。
 
 ## 📖 真实 Demo 输出 (2026年2月24日)
 
-这是通过运行 `npx trending-scout --top 10 --formats digest,tweet_thread,newsletter --output-lang Chinese` 生成的真实、未经编辑的输出。
+这是通过运行 `npx trendclaw --top 10 --formats digest,tweet_thread,newsletter --output-lang Chinese` 生成的真实、未经编辑的输出。
 
 <details>
 <summary><strong>📄 摘要 (Digest)</strong> &mdash; 一份易于浏览的 Markdown 摘要。</summary>
@@ -127,8 +127,8 @@ GitNexus以客户端零服务器架构生成代码知识图谱，内置图形RAG
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/github-trending-scout.git
-cd github-trending-scout
+git clone https://github.com/your-username/trendclaw.git
+cd trendclaw
 
 # 安装依赖
 npm install

@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Multi-LLM Backend ───
+// ─── TrendClaw — Multi-LLM Backend ───
 //
 // Unified interface supporting:
 // 1. OpenAI API (GPT-4.1-mini, etc.)

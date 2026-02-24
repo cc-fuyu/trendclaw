@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Content Generator Agent ───
+// ─── TrendClaw — Content Generator Agent ───
 //
 // Transforms analysis results into publishable content.
 // Supports OpenAI / Ollama / OpenClaw via unified LLM interface.

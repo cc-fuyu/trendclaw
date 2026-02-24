@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// ─── GitHub Trending Scout — MCP Server ───
+// ─── TrendClaw — MCP Server ───
 //
 // Exposes the scout pipeline as an MCP (Model Context Protocol) server.
 // Any MCP-compatible client (OpenClaw, Claude Desktop, etc.) can call it.
@@ -10,7 +10,7 @@
 //
 // OpenClaw config (openclaw.json):
 //   "mcpServers": {
-//     "trending-scout": {
+//     "trendclaw": {
 //       "command": "node",
 //       "args": ["/path/to/dist/mcp-server.js"]
 //     }
@@ -42,7 +42,7 @@ interface MCPResponse {
 
 const TOOLS = [
   {
-    name: "github_trending_scout",
+    name: "trendclaw_scout",
     description:
       "Scrape GitHub Trending repos, enrich with deep metadata from GitHub API, " +
       "AI-analyze trends with history comparison, and generate multi-format developer content. " +
@@ -82,7 +82,7 @@ const TOOLS = [
     },
   },
   {
-    name: "github_trending_raw",
+    name: "trendclaw_raw",
     description:
       "Scrape GitHub Trending repos and return raw structured data (no AI analysis). " +
       "Useful for agents that want to do their own analysis.",
@@ -110,7 +110,7 @@ const TOOLS = [
 // ─── Tool Execution ───
 
 async function executeTool(name: string, args: Record<string, unknown>): Promise<MCPResponse["result"]> {
-  if (name === "github_trending_scout") {
+  if (name === "trendclaw_scout") {
     const result = await runScout(
       {
         language: (args.language as string) || "",
@@ -137,7 +137,7 @@ async function executeTool(name: string, args: Record<string, unknown>): Promise
 
     // Build text output
     const lines: string[] = [];
-    lines.push(`# GitHub Trending Scout Report`);
+    lines.push(`# TrendClaw Report`);
     lines.push(`**Period:** ${result.scrape.period} | **Repos:** ${result.scrape.repos.length} | **Duration:** ${(result.metadata.durationMs / 1000).toFixed(1)}s`);
     lines.push("");
     lines.push(`## Summary`);
@@ -166,7 +166,7 @@ async function executeTool(name: string, args: Record<string, unknown>): Promise
     };
   }
 
-  if (name === "github_trending_raw") {
+  if (name === "trendclaw_raw") {
     // Import scraper directly for raw mode
     const { scrapeTrending } = await import("./agents/scraper.js");
     const repos = await scrapeTrending(
@@ -201,7 +201,7 @@ async function handleRequest(req: MCPRequest): Promise<MCPResponse> {
             protocolVersion: "2024-11-05",
             capabilities: { tools: {} },
             serverInfo: {
-              name: "github-trending-scout",
+              name: "trendclaw",
               version: "0.3.0",
             },
           },
@@ -247,7 +247,7 @@ async function handleRequest(req: MCPRequest): Promise<MCPResponse> {
 async function main() {
   const rl = readline.createInterface({ input: process.stdin });
 
-  process.stderr.write("[trending-scout-mcp] Server started on stdio\n");
+  process.stderr.write("[trendclaw-mcp] Server started on stdio\n");
 
   for await (const line of rl) {
     if (!line.trim()) continue;
@@ -260,12 +260,12 @@ async function main() {
       }
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
-      process.stderr.write(`[trending-scout-mcp] Parse error: ${msg}\n`);
+      process.stderr.write(`[trendclaw-mcp] Parse error: ${msg}\n`);
     }
   }
 }
 
 main().catch((err) => {
-  process.stderr.write(`[trending-scout-mcp] Fatal: ${err.message || err}\n`);
+  process.stderr.write(`[trendclaw-mcp] Fatal: ${err.message || err}\n`);
   process.exit(1);
 });

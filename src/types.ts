@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Shared Types ───
+// ─── TrendClaw — Shared Types ───
 
 /** A single trending repository scraped from GitHub */
 export interface TrendingRepo {

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-// ─── GitHub Trending Scout — Standalone CLI ───
+// ─── TrendClaw — Standalone CLI ───
 //
 // Run the full pipeline without OpenClaw:
-//   npx trending-scout --formats digest,tweet_thread
-//   npx trending-scout --backend ollama --model llama3
-//   npx trending-scout --language python --period weekly
+//   npx trendclaw --formats digest,tweet_thread
+//   npx trendclaw --backend ollama --model llama3
+//   npx trendclaw --language python --period weekly
 
 import { runScout } from "./orchestrator.js";
 import type { LLMBackend } from "./types.js";
@@ -13,12 +13,12 @@ import * as path from "node:path";
 
 const HELP = `
 ╔════════════════════════════════════════════════════════════╗
-║      🔭 GitHub Trending Scout — CLI                       ║
+║      🔭 TrendClaw — CLI                       ║
 ║      Scrape → Enrich → Analyze → Generate Content          ║
 ╚════════════════════════════════════════════════════════════╝
 
 Usage:
-  trending-scout [options]
+  trendclaw [options]
 
 LLM Backend Options:
   --backend <b>           openai | ollama | openclaw (default: openai)
@@ -39,11 +39,11 @@ Output Options:
   --help                  Show this help
 
 Examples:
-  trending-scout
-  trending-scout --backend ollama --model llama3
-  trending-scout --language typescript --formats digest,tweet_thread
-  trending-scout --period weekly --top 15 --output-lang Chinese
-  trending-scout --formats blog_post,newsletter --out ./content
+  trendclaw
+  trendclaw --backend ollama --model llama3
+  trendclaw --language typescript --formats digest,tweet_thread
+  trendclaw --period weekly --top 15 --output-lang Chinese
+  trendclaw --formats blog_post,newsletter --out ./content
 
 Environment:
   OPENAI_API_KEY          Required for openai backend.

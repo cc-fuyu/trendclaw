@@ -1,4 +1,4 @@
-// ─── GitHub Trending Scout — Analyzer Agent ───
+// ─── TrendClaw — Analyzer Agent ───
 //
 // Takes scraped trending data + deep metadata + history diff,
 // uses LLM to produce structured insights.

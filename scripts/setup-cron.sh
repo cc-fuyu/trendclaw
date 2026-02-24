@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ─── GitHub Trending Scout — OpenClaw Cron Setup ───
+# ─── TrendClaw — OpenClaw Cron Setup ───
 #
 # One-command setup for daily automated trending reports.
 # Usage: bash scripts/setup-cron.sh [options]
@@ -35,7 +35,7 @@ while [[ $# -gt 0 ]]; do
     --no-announce) ANNOUNCE="false"; shift ;;
     --help|-h)
       cat << 'EOF'
-GitHub Trending Scout — Cron Setup
+TrendClaw — Cron Setup
 
 Usage: bash scripts/setup-cron.sh [options]
 
@@ -73,7 +73,7 @@ EOF
 done
 
 # ─── Build the cron message ───
-MESSAGE="Run the GitHub Trending Scout pipeline:
+MESSAGE="Run the TrendClaw pipeline:
 - Scrape the top ${TOP_N} ${PERIOD} trending repos
 - Enrich with GitHub API deep metadata
 - Compare with yesterday's snapshot (history diff)
@@ -82,7 +82,7 @@ MESSAGE="Run the GitHub Trending Scout pipeline:
 - Output language: ${LANGUAGE}
 - Save all outputs to ~/scout_output/
 
-Use the github_trending_scout tool with these parameters:
+Use the trendclaw_scout tool with these parameters:
   topN: ${TOP_N}
   period: ${PERIOD}
   formats: [${FORMATS}]
@@ -90,7 +90,7 @@ Use the github_trending_scout tool with these parameters:
 
 # ─── Build the openclaw cron command ───
 CMD="openclaw cron add"
-CMD+=" --name \"Trending Scout (${PERIOD})\""
+CMD+=" --name \"TrendClaw (${PERIOD})\""
 CMD+=" --cron \"${SCOUT_TIME}\""
 CMD+=" --tz \"${TIMEZONE}\""
 CMD+=" --session ${SESSION}"
@@ -107,7 +107,7 @@ fi
 
 # ─── Execute ───
 echo "╔════════════════════════════════════════════════════════════╗"
-echo "║  🔭 GitHub Trending Scout — Cron Setup                    ║"
+echo "║  🔭 TrendClaw — Cron Setup                    ║"
 echo "╚════════════════════════════════════════════════════════════╝"
 echo ""
 echo "  Schedule:  ${SCOUT_TIME} (${TIMEZONE})"

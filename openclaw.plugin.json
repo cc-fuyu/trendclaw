@@ -1,11 +1,11 @@
 {
-  "id": "trending-scout",
-  "name": "GitHub Trending Scout",
+  "id": "trendclaw",
+  "name": "TrendClaw",
   "version": "0.1.0",
   "description": "Scrape GitHub Trending → AI-analyze repos → generate developer content (tweets, blog posts, newsletters) → auto-publish.",
-  "author": "trending-scout contributors",
+  "author": "trendclaw contributors",
   "license": "MIT",
-  "skills": ["skills/trending-scout"],
+  "skills": ["skills/trendclaw"],
   "configSchema": {
     "type": "object",
     "properties": {
