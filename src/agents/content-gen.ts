@@ -1,10 +1,10 @@
 // ─── GitHub Trending Scout — Content Generator Agent ───
 //
-// Takes analysis results and generates publishable content in
-// multiple formats: tweet threads, blog posts, newsletters, digests.
+// Transforms analysis results into publishable content.
+// Supports OpenAI / Ollama / OpenClaw via unified LLM interface.
 
-import type { AnalysisResult, ScrapeResult, ContentPiece } from "../types.js";
-import OpenAI from "openai";
+import type { AnalysisResult, ScrapeResult, ContentPiece, LLMConfig } from "../types.js";
+import { chatCompletion } from "../utils/llm.js";
 
 type ContentFormat = "tweet_thread" | "blog_post" | "newsletter" | "digest";
 
@@ -49,42 +49,65 @@ Rules:
 Rules:
 - Title with date
 - Executive summary (2-3 sentences)
-- Table: Rank | Repo | Category | Stars Today | Key Insight
+- Table: Rank | Repo | Category | Stars Today | Velocity | Key Insight
 - Top 3 deep dives (2-3 sentences each)
 - "Themes of the Day" section
+- If trending changes are available, include a "What Changed" section
 - Keep it scannable and information-dense
 - Use markdown tables and formatting`,
 };
 
 /**
- * Generate a single content piece in the specified format.
+ * Build the data context string for content generation.
+ */
+function buildRepoContext(analysis: AnalysisResult): string {
+  const VELOCITY_EMOJI: Record<string, string> = {
+    rocket: "🚀", rising: "📈", stable: "➡️", fading: "📉",
+  };
+
+  const repoLines = analysis.insights.map((ins) => {
+    const r = ins.repo;
+    const emoji = VELOCITY_EMOJI[ins.velocitySignal] || "➡️";
+    let line = `#${r.rank} ${emoji} ${r.name} (${r.language || "N/A"}) — ⭐${r.totalStars.toLocaleString()} (+${r.starsToday.toLocaleString()})
+  ${r.description}
+  Category: ${ins.category} | Why: ${ins.whyTrending}
+  Audience: ${ins.targetAudience} | Takeaway: ${ins.keyTakeaway}
+  Relevance: ${ins.relevanceScore}/10 | Velocity: ${ins.velocitySignal} | URL: ${r.url}`;
+
+    if (ins.deepMeta) {
+      line += `\n  Issues: ${ins.deepMeta.openIssues} | Age: ${ins.deepMeta.ageInDays}d | Commits/wk: ${ins.deepMeta.recentCommitActivity} | License: ${ins.deepMeta.license}`;
+    }
+    return line;
+  }).join("\n\n");
+
+  let diffSection = "";
+  if (analysis.diff) {
+    const d = analysis.diff;
+    diffSection = `\n\nTrending Changes:
+- New today: ${d.newEntries.join(", ") || "none"}
+- Dropped: ${d.dropped.join(", ") || "none"}
+- Rising: ${d.risers.map((r) => `${r.name}(+${r.rankChange})`).join(", ") || "none"}`;
+  }
+
+  return repoLines + diffSection;
+}
+
+/**
+ * Generate a single content piece.
  */
 async function generateOne(
   format: ContentFormat,
   analysis: AnalysisResult,
-  scrape: ScrapeResult,
-  openai: OpenAI,
-  model: string,
+  llmConfig: LLMConfig,
   language: string,
 ): Promise<ContentPiece> {
   console.log(`[content-gen] Generating ${format}...`);
 
-  // Build the data context
-  const repoContext = analysis.insights
-    .map((ins) => {
-      const r = ins.repo;
-      return `#${r.rank} ${r.name} (${r.language || "N/A"}) — ⭐${r.totalStars.toLocaleString()} (+${r.starsToday.toLocaleString()})
-  ${r.description}
-  Category: ${ins.category} | Why: ${ins.whyTrending}
-  Audience: ${ins.targetAudience} | Takeaway: ${ins.keyTakeaway}
-  Relevance: ${ins.relevanceScore}/10 | URL: ${r.url}`;
-    })
-    .join("\n\n");
+  const repoContext = buildRepoContext(analysis);
 
-  const response = await openai.chat.completions.create({
-    model,
-    temperature: 0.7,
-    messages: [
+  const response = await chatCompletion(
+    { ...llmConfig, temperature: 0.7 },
+    [
       {
         role: "system",
         content: `You are a developer content creator with a large following. ${FORMAT_PROMPTS[format]}\n\nWrite in ${language}. Today's date: ${new Date().toISOString().split("T")[0]}.`,
@@ -103,26 +126,18 @@ ${repoContext}
 Generate the ${format.replace("_", " ")} now.`,
       },
     ],
-  });
+  );
 
-  const content = response.choices[0]?.message?.content || "";
+  const content = response.content;
   const wordCount = content.split(/\s+/).length;
 
-  // Extract title from first line
   const firstLine = content.split("\n")[0] || "";
   const title = firstLine.replace(/^#+\s*/, "").replace(/^\*+/, "").trim() || `GitHub Trending ${format}`;
 
-  // Extract hashtags
   const hashtagMatches = content.match(/#\w+/g) || [];
   const hashtags = [...new Set(hashtagMatches)];
 
-  return {
-    format,
-    title,
-    content,
-    wordCount,
-    hashtags,
-  };
+  return { format, title, content, wordCount, hashtags };
 }
 
 /**
@@ -131,17 +146,14 @@ Generate the ${format.replace("_", " ")} now.`,
 export async function generateContent(
   formats: ContentFormat[],
   analysis: AnalysisResult,
-  scrape: ScrapeResult,
-  openai: OpenAI,
-  model: string,
+  llmConfig: LLMConfig,
   language: string,
 ): Promise<ContentPiece[]> {
   console.log(`[content-gen] Generating ${formats.length} content pieces`);
 
-  // Generate sequentially to avoid rate limits
   const pieces: ContentPiece[] = [];
   for (const format of formats) {
-    const piece = await generateOne(format, analysis, scrape, openai, model, language);
+    const piece = await generateOne(format, analysis, llmConfig, language);
     pieces.push(piece);
   }
 

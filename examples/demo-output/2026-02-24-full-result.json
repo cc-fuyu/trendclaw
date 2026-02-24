@@ -1,0 +1,682 @@
+{
+  "scrape": {
+    "period": "daily",
+    "language": "any",
+    "scrapedAt": "2026-02-24T09:49:16.832Z",
+    "repos": [
+      {
+        "rank": 1,
+        "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+        "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models",
+        "language": "",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 2454,
+        "builtBy": [
+          "x1xhlol",
+          "pricisTrail",
+          "benja",
+          "paulacavero",
+          "4regab"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "huggingface/skills",
+        "url": "https://github.com/huggingface/skills",
+        "description": "",
+        "language": "Python",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 1451,
+        "builtBy": [
+          "burtenshaw",
+          "evalstate",
+          "Madhu3456",
+          "claude",
+          "gary149"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "OpenBB-finance/OpenBB",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "description": "Financial data platform for analysts, quants and AI agents.",
+        "language": "Python",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 470,
+        "builtBy": [
+          "jmaslek",
+          "deeleeramone",
+          "colin99d",
+          "DidierRLopes",
+          "montezdesousa"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+        "language": "Python",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 178,
+        "builtBy": [
+          "muratcankoylan",
+          "claude",
+          "erikpr1994",
+          "stephenthedev",
+          "xue1213888"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "f/prompts.chat",
+        "url": "https://github.com/f/prompts.chat",
+        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+        "language": "HTML",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 295,
+        "builtBy": [
+          "f",
+          "devisasari",
+          "giorgiop",
+          "sinansonmez",
+          "ersinkoc"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "CompVis/stable-diffusion",
+        "url": "https://github.com/CompVis/stable-diffusion",
+        "description": "A latent text-to-image diffusion model",
+        "language": "Jupyter Notebook",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 36,
+        "builtBy": [
+          "rromb",
+          "pesser",
+          "patrickvonplaten",
+          "ablattmann",
+          "LuChengTHU"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "abhigyanpatwari/GitNexus",
+        "url": "https://github.com/abhigyanpatwari/GitNexus",
+        "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+        "language": "TypeScript",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 467,
+        "builtBy": [
+          "abhigyanpatwari",
+          "paulrobello",
+          "cursoragent",
+          "claude",
+          "github-actions"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Stremio/stremio-web",
+        "url": "https://github.com/Stremio/stremio-web",
+        "description": "Stremio - Freedom to Stream",
+        "language": "JavaScript",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 272,
+        "builtBy": [
+          "nklhtv",
+          "tymmesyde",
+          "kKaskak",
+          "swetlasg",
+          "Botsy"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "stan-smith/FossFLOW",
+        "url": "https://github.com/stan-smith/FossFLOW",
+        "description": "Make beautiful isometric infrastructure diagrams",
+        "language": "TypeScript",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 430,
+        "builtBy": [
+          "markmanx",
+          "stan-smith",
+          "semantic-release-bot",
+          "abhinav-1305",
+          "Abrar74774"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "VectifyAI/PageIndex",
+        "url": "https://github.com/VectifyAI/PageIndex",
+        "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+        "language": "Python",
+        "totalStars": 0,
+        "forks": 0,
+        "starsToday": 624,
+        "builtBy": [
+          "rejojer",
+          "zmtomorrow",
+          "clarenceluo78"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "analysis": {
+    "summary": "今日GitHub趋势显示AI代理技能、上下文工程和提示工程相关项目持续爆发，体现了开发者对智能助手和多模态AI工具的极大兴趣。同时，金融数据分析、代码智能图谱和基础设施可视化等领域也保持活跃，显示开发者在AI赋能下多元化技术栈的探索。",
+    "insights": [
+      {
+        "repo": {
+          "rank": 1,
+          "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models",
+          "language": "",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 2454,
+          "builtBy": [
+            "x1xhlol",
+            "pricisTrail",
+            "benja",
+            "paulacavero",
+            "4regab"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "openIssues": 127,
+          "watchers": 1544,
+          "createdAt": "2025-03-05T16:38:29Z",
+          "pushedAt": "2026-02-17T11:22:32Z",
+          "license": "GPL-3.0",
+          "topics": [
+            "ai",
+            "bolt",
+            "cluely",
+            "copilot",
+            "cursor",
+            "cursorai",
+            "devin",
+            "github-copilot",
+            "lovable",
+            "open-source",
+            "perplexity",
+            "replit",
+            "system-prompts",
+            "trae",
+            "trae-ai",
+            "trae-ide",
+            "v0",
+            "vscode",
+            "windsurf",
+            "windsurf-ai"
+          ],
+          "defaultBranch": "main",
+          "ageInDays": 355,
+          "recentCommitActivity": 1,
+          "readme": "<p align=\"center\">\n  Support my work here: \n  <a href=\"https://bags.fm/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS\">Bags.fm</a> •\n  <a href=\"https://jup.ag/tokens/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS\">Jupiter</a> •\n  <a href=\"https://photon-sol.tinyastro.io/en/lp/Qa5ZCCwrWoPYckNXXMCAhCsw8gafgYFAu1Qes3Grgv5?handle=\">Photon</a> •\n  <a href=\"https://dexscreener.com/solana/qa5zccwrwopycknxxmcahcsw8gafgyfau1qes3grgv5\">DEXScreener</a>\n</p>\n\n<p align=\"center\">Official CA: DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS (on Solana)</p>\n\n---\n<p align=\"center\">\n  <sub>Special thanks to</sub>  \n</p>\n\n<table width=\"100%\">\n  <tr>\n    <td align=\"center\" valign=\"top\">\n      <a href=\"https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only\" target=\"_blank\">\n        <img src=\"assets/tembo-dark.png#gh-light-mode-only\" alt=\"Tembo Logo\" width=\"750\" height=\"210\"/>\n      </a>\n      <a href=\"https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only\" target=\"_blank\">\n        <img src=\"assets/tembo-light.png#gh-dark-mode-only\" alt=\"Tembo Logo\" width=\"750\" height=\"210\"/>\n      </a>\n      <br><br>\n      <strong><a href=\"https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">Put any coding agent to work while you sleep</a></strong>\n      <br>\n      <a href=\"https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">Tembo – The Background Coding Agents Company</a>\n      <br><br>\n      <a href=\"https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">[Get started for free]</a>\n    </td>\n    <td align=\"center\" valign=\"top\">\n      <a href=\"https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">\n        <img src=\"assets/Latitude_logo.png\" alt=\"Latitude Logo\" width=\"750\" height=\"210\"/>\n      </a>\n      <br><br>\n      <strong><a href=\"https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">Make your LLM predictable in production</a></strong>\n      <br>\n      <a href=\"https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship\" target=\"_blank\">Open Source AI Engineering Platform</a>\n      <br><br>\n      &nbsp;\n    </td>\n  </tr>\n</table>\n\n---\n\n<a href=\"https://discord.gg/NwzrWErdMU\" target=\"_blank\">\n  <img src=\"https://img.shields.io/discord/1402660735833604126?label=LeaksLab%20Discord&logo=discord&style=for-the-badge\" alt=\"LeaksLab Discord\" />\n</a>\n\n\n<a href=\"https://trendshift.io/repositories/14084\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14084\" alt=\"x1xhlol%2Fsystem-prompts-and-models-of-ai-tools | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n📜 Over **30,000+ lines** of insights into their structure and functionality.  \n\n\n[![Build Status](https://app.cloudback.it/badge/x1xhlol/system-prompts-and-models-of-ai-tools)](https://cloudback.it)\n[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/x1xhlol/system-prompts-and-models-of-ai-tools)\n\n---\n\n## ❤️ Support the Project\n\nIf you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project.\n\nYou can show your support via:\n\n- **Cryptocurrency:**  \n  - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`  \n  - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`  \n  - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`\n- **Patreon:** https://patreon.com/lucknite\n- **Ko-fi:** https://ko-fi.com/lucknite\n\n🙏 Thank you for your support!\n\n---\n\n# Sponsors\n\nSponsor the most comprehensive repository of AI system prompts and reach thousands of developers.\n\n[Get Started](mailto:lucknitelol@proton.me)\n\n---\n\n## 🛠 Road"
+        },
+        "category": "AI/ML",
+        "whyTrending": "该项目汇聚了大量开源AI系统提示和模型，满足开发者对多样化AI工具集成和定制的需求，快速获得大量关注。",
+        "targetAudience": "AI开发者、研究人员、工具集成者",
+        "keyTakeaway": "系统提示和模型共享正成为AI应用快速迭代的关键资源。",
+        "relevanceScore": 9,
+        "velocitySignal": "rocket"
+      },
+      {
+        "repo": {
+          "rank": 2,
+          "name": "huggingface/skills",
+          "url": "https://github.com/huggingface/skills",
+          "description": "",
+          "language": "Python",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 1451,
+          "builtBy": [
+            "burtenshaw",
+            "evalstate",
+            "Madhu3456",
+            "claude",
+            "gary149"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "huggingface/skills",
+          "openIssues": 13,
+          "watchers": 26,
+          "createdAt": "2025-11-24T07:31:48Z",
+          "pushedAt": "2026-02-20T10:24:20Z",
+          "license": "Apache-2.0",
+          "topics": [],
+          "defaultBranch": "main",
+          "ageInDays": 92,
+          "recentCommitActivity": 1,
+          "readme": "# Hugging Face Skills\n\nHugging Face Skills are definitions for AI/ML tasks like dataset creation, model training, and evaluation. They are interoperable with all major coding agent tools like OpenAI Codex, Anthropic's Claude Code, Google DeepMind's Gemini CLI, and Cursor.\n\nThe Skills in this repository follow the standardized format [Agent Skill](https://agentskills.io/home) format.\n\n## How do Skills work?\n\nIn practice, skills are self-contained folders that package instructions, scripts, and resources together for an AI agent to use on a specific use case. Each folder includes a `SKILL.md` file with YAML frontmatter (name and description) followed by the guidance your coding agent follows while the skill is active. \n\n> [!NOTE]\n> 'Skills' is actually an Anthropic term used within Claude AI and Claude Code and not adopted by other agent tools, but we love it! OpenAI Codex uses an `AGENTS.md` file to define the instructions for your coding agent. Google Gemini uses 'extensions' to define the instructions for your coding agent in a `gemini-extension.json` file. **This repo is compatible with all of them, and more!**\n\n> [!TIP]\n> If your agent doesn't support skills, you can use [`agents/AGENTS.md`](agents/AGENTS.md) directly as a fallback.\n\n## Installation\n\nHugging Face skills are compatible with Claude Code, Codex, Gemini CLI, and Cursor.\n\n### Claude Code\n\n1. Register the repository as a plugin marketplace:  \n   \n```\n/plugin marketplace add huggingface/skills\n```\n\n2. To install a skill, run:  \n   \n```\n/plugin install <skill-name>@huggingface/skills\n```\n\nFor example:  \n\n```\n/plugin install hugging-face-cli@huggingface/skills\n```\n\n### Codex\n\n1. Codex will identify the skills via the `AGENTS.md` file. You can verify the instructions are loaded with:\n\n```\ncodex --ask-for-approval never \"Summarize the current instructions.\"\n```\n\n2. For more details, see the [Codex AGENTS guide](https://developers.openai.com/codex/guides/agents-md).\n\n### Gemini CLI\n\n1. This repo includes `gemini-extension.json` to integrate with the Gemini CLI.\n\n2. Install locally:  \n\n```\ngemini extensions install . --consent\n```\n\nor use the GitHub URL:\n\n```\ngemini extensions install https://github.com/huggingface/skills.git --consent\n```\n\n4. See [Gemini CLI extensions docs](https://geminicli.com/docs/extensions/#installing-an-extension) for more help.\n\n### Cursor\n\nThis repository includes Cursor plugin manifests:\n\n- `.cursor-plugin/plugin.json`\n- `.mcp.json` (configured with the Hugging Face MCP server URL)\n\nInstall from repository URL (or local checkout) via the Cursor plugin flow.\n\nFor contributors, regenerate manifests with:\n\n```bash\n./scripts/publish.sh\n```\n\n## Skills\n\nThis repository contains a few skills to get you started. You can also contribute your own skills to the repository.\n\n### Available skills\n\n<!-- This table is auto-generated by scripts/generate_agents.py. Do not edit manually. -->\n<!-- BEGIN_SKILLS_TABLE -->\n| Name | Description | Documentation |\n|------|-------------|---------------|\n| `hugging-face-cli` | Execute Hugging Face Hub operations using the hf CLI. Download models/datasets, upload files, manage repos, and run cloud compute jobs. | [SKILL.md](skills/hugging-face-cli/SKILL.md) |\n| `hugging-face-datasets` | Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. | [SKILL.md](skills/hugging-face-datasets/SKILL.md) |\n| `hugging-face-evaluation` | Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom evaluations with vLLM/lighteval. | [SKILL.md](skills/hugging-face-evaluation/SKILL.md) |\n| `hugging-face-jobs` | Run compute jobs on Hugging Face infrastructure. Execute Python scripts, manage scheduled jobs, and monitor job status. | [SKILL.md](skills/hugging-face-jobs/SKILL.md) |\n| `hugging-face-mo"
+        },
+        "category": "AI/ML",
+        "whyTrending": "Hugging Face推出标准化代理技能定义，助力多平台AI任务互操作性，符合当前AI生态整合趋势。",
+        "targetAudience": "AI工程师、模型训练者、自动化开发者",
+        "keyTakeaway": "统一技能格式推动AI代理跨平台协作与复用。",
+        "relevanceScore": 8,
+        "velocitySignal": "rising"
+      },
+      {
+        "repo": {
+          "rank": 3,
+          "name": "OpenBB-finance/OpenBB",
+          "url": "https://github.com/OpenBB-finance/OpenBB",
+          "description": "Financial data platform for analysts, quants and AI agents.",
+          "language": "Python",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 470,
+          "builtBy": [
+            "jmaslek",
+            "deeleeramone",
+            "colin99d",
+            "DidierRLopes",
+            "montezdesousa"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "OpenBB-finance/OpenBB",
+          "openIssues": 60,
+          "watchers": 431,
+          "createdAt": "2020-12-20T10:46:38Z",
+          "pushedAt": "2026-02-24T03:20:46Z",
+          "license": "NOASSERTION",
+          "topics": [
+            "ai",
+            "crypto",
+            "derivatives",
+            "economics",
+            "equity",
+            "finance",
+            "fixed-income",
+            "machine-learning",
+            "openbb",
+            "options",
+            "python",
+            "quantitative-finance",
+            "stocks"
+          ],
+          "defaultBranch": "develop",
+          "ageInDays": 1891,
+          "recentCommitActivity": 6,
+          "readme": "<br />\n<img src=\"https://github.com/OpenBB-finance/OpenBB/blob/develop/images/odp-light.svg?raw=true#gh-light-mode-only\" alt=\"Open Data Platform by OpenBB logo\" width=\"600\">\n<img src=\"https://github.com/OpenBB-finance/OpenBB/blob/develop/images/odp-dark.svg?raw=true#gh-dark-mode-only\" alt=\"Open Data Platform by OpenBB logo\" width=\"600\">\n<br />\n<br />\n\n[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/openbb_finance.svg?style=social&label=Follow%20%40openbb_finance)](https://x.com/openbb_finance)\n[![Discord Shield](https://img.shields.io/discord/831165782750789672)](https://discord.com/invite/xPHTuHCmuV)\n[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/OpenBB-finance/OpenBB)\n<a href=\"https://codespaces.new/OpenBB-finance/OpenBB\">\n  <img src=\"https://github.com/codespaces/badge.svg\" height=\"20\" />\n</a>\n<a target=\"_blank\" href=\"https://colab.research.google.com/github/OpenBB-finance/OpenBB/blob/develop/examples/googleColab.ipynb\">\n  <img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/>\n</a>\n[![PyPI](https://img.shields.io/pypi/v/openbb?color=blue&label=PyPI%20Package)](https://pypi.org/project/openbb/)\n\nOpen Data Platform by OpenBB (ODP) is the open-source toolset that helps data engineers integrate proprietary, licensed, and public data sources into downstream applications like AI copilots and research dashboards.\n\nODP operates as the \"connect once, consume everywhere\" infrastructure layer that consolidates and exposes data to multiple surfaces at once: Python environments for quants, OpenBB Workspace and Excel for analysts, MCP servers for AI agents, and REST APIs for other applications.\n\n<a href=\"https://pro.openbb.co\">\n  <div align=\"center\">\n  <img src=\"https://openbb-cms.directus.app/assets/70b971ef-7a7e-486e-b5ae-1cc602f2162c.png\" alt=\"Logo\" width=\"1000\">\n  </div>\n</a>\n\nGet started with: `pip install openbb`\n\n```python\nfrom openbb import obb\noutput = obb.equity.price.historical(\"AAPL\")\ndf = output.to_dataframe()\n```\n\nData integrations available can be found here: <https://docs.openbb.co/python/reference>\n\n---\n\n## OpenBB Workspace\n\nWhile the Open Data Platform provides the open-source data integration foundation, **OpenBB Workspace** offers the enterprise UI for analysts to visualize datasets and leverage AI agents. The platform's \"connect once, consume everywhere\" architecture enables seamless integration between the two.\n\nYou can find OpenBB Workspace at <https://pro.openbb.co>.\n<a href=\"https://pro.openbb.co\">\n  <div align=\"center\">\n  <img src=\"https://openbb-cms.directus.app/assets/f69b6aaf-0821-4bc8-a43c-715e03a924ef.png\" alt=\"Logo\" width=\"1000\">\n  </div>\n</a>\n\nData integration:\n\n- You can learn more about adding data to the OpenBB workspace from the [docs](https://docs.openbb.co/workspace) or [this open source repository](https://github.com/OpenBB-finance/backends-for-openbb).\n\nAI Agents integration:\n\n- You can learn more about adding AI agents to the OpenBB workspace from [this open source repository](https://github.com/OpenBB-finance/agents-for-openbb).\n\n### Integrating Open Data Platform to the OpenBB Workspace\n\nConnect this library to the OpenBB Workspace with a few simple commands, in a Python (3.9.21 - 3.12) environment.\n\n#### Run an ODP backend\n\n- Install the packages.\n\n```sh\npip install \"openbb[all]\"\n```\n\n- Start the API server over localhost.\n\n```sh\nopenbb-api\n```\n\nThis will launch a FastAPI server, via Uvicorn, at `127.0.0.1:6900`.\n\nYou can check that it works by going to <http://127.0.0.1:6900>.\n\n#### Integrate the ODP Backend to OpenBB Workspace\n\nSign-in to the [OpenBB Workspace](https://pro.openbb.co/), and follow the following steps:\n\n![CleanShot 2025-05-17 at 09 51 56@2x](https://github.com/user-attachments/assets/75cffb4a-5e95-470a-b9d0-6ffd4067e069)\n\n1. Go to t"
+        },
+        "category": "Data",
+        "whyTrending": "作为金融数据分析和量化交易平台，OpenBB结合AI技术，吸引金融分析师和量化交易者关注。",
+        "targetAudience": "金融分析师、量化交易员、数据科学家",
+        "keyTakeaway": "开源金融平台正在借助AI提升数据洞察和交易决策能力。",
+        "relevanceScore": 8,
+        "velocitySignal": "stable"
+      },
+      {
+        "repo": {
+          "rank": 4,
+          "name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+          "language": "Python",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 178,
+          "builtBy": [
+            "muratcankoylan",
+            "claude",
+            "erikpr1994",
+            "stephenthedev",
+            "xue1213888"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "openIssues": 9,
+          "watchers": 61,
+          "createdAt": "2025-12-21T02:43:42Z",
+          "pushedAt": "2026-02-16T14:09:18Z",
+          "license": "MIT",
+          "topics": [],
+          "defaultBranch": "main",
+          "ageInDays": 65,
+          "recentCommitActivity": 0,
+          "readme": "# Agent Skills for Context Engineering\n\nA comprehensive, open collection of Agent Skills focused on context engineering principles for building production-grade AI agent systems. These skills teach the art and science of curating context to maximize agent effectiveness across any agent platform.\n\n## What is Context Engineering?\n\nContext engineering is the discipline of managing the language model's context window. Unlike prompt engineering, which focuses on crafting effective instructions, context engineering addresses the holistic curation of all information that enters the model's limited attention budget: system prompts, tool definitions, retrieved documents, message history, and tool outputs.\n\nThe fundamental challenge is that context windows are constrained not by raw token capacity but by attention mechanics. As context length increases, models exhibit predictable degradation patterns: the \"lost-in-the-middle\" phenomenon, U-shaped attention curves, and attention scarcity. Effective context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of desired outcomes.\n\n## Recognition\n\nThis repository is cited in academic research as foundational work on static skill architecture:\n\n> \"While static skills are well-recognized [Anthropic, 2025b; Muratcan Koylan, 2025], MCE is among the first to dynamically evolve them, bridging manual skill engineering and autonomous self-improvement.\"\n\n— [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/pdf/2601.21557), Peking University State Key Laboratory of General Artificial Intelligence (2026)\n\n## Skills Overview\n\n### Foundational Skills\n\nThese skills establish the foundational understanding required for all subsequent context engineering work.\n\n| Skill | Description |\n|-------|-------------|\n| [context-fundamentals](skills/context-fundamentals/) | Understand what context is, why it matters, and the anatomy of context in agent systems |\n| [context-degradation](skills/context-degradation/) | Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash |\n| [context-compression](skills/context-compression/) | Design and evaluate compression strategies for long-running sessions |\n\n### Architectural Skills\n\nThese skills cover the patterns and structures for building effective agent systems.\n\n| Skill | Description |\n|-------|-------------|\n| [multi-agent-patterns](skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |\n| [memory-systems](skills/memory-systems/) | Design short-term, long-term, and graph-based memory architectures |\n| [tool-design](skills/tool-design/) | Build tools that agents can use effectively |\n| [filesystem-context](skills/filesystem-context/) | Use filesystems for dynamic context discovery, tool output offloading, and plan persistence |\n| [hosted-agents](skills/hosted-agents/) | **NEW** Build background coding agents with sandboxed VMs, pre-built images, multiplayer support, and multi-client interfaces |\n\n### Operational Skills\n\nThese skills address the ongoing operation and optimization of agent systems.\n\n| Skill | Description |\n|-------|-------------|\n| [context-optimization](skills/context-optimization/) | Apply compaction, masking, and caching strategies |\n| [evaluation](skills/evaluation/) | Build evaluation frameworks for agent systems |\n| [advanced-evaluation](skills/advanced-evaluation/) | Master LLM-as-a-Judge techniques: direct scoring, pairwise comparison, rubric generation, and bias mitigation |\n\n### Development Methodology\n\nThese skills cover the meta-level practices for building LLM-powered projects.\n\n| Skill | Description |\n|-------|-------------|\n| [project-development](skills/project-development/) | Design and build LLM projects from ideation through deployment, including task-model fit analysis, pipeline architecture, and structured output design |\n\n### Cognitive Architecture Skills\n\nThese skills cover "
+        },
+        "category": "AI/ML",
+        "whyTrending": "该项目聚焦上下文工程，帮助开发者优化AI代理的上下文管理，提升多代理系统性能，符合AI系统复杂化趋势。",
+        "targetAudience": "AI架构师、代理系统开发者、研究人员",
+        "keyTakeaway": "上下文工程是构建高效AI代理系统的核心技术。",
+        "relevanceScore": 7,
+        "velocitySignal": "rising"
+      },
+      {
+        "repo": {
+          "rank": 5,
+          "name": "f/prompts.chat",
+          "url": "https://github.com/f/prompts.chat",
+          "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+          "language": "HTML",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 295,
+          "builtBy": [
+            "f",
+            "devisasari",
+            "giorgiop",
+            "sinansonmez",
+            "ersinkoc"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "f/prompts.chat",
+          "openIssues": 10,
+          "watchers": 1557,
+          "createdAt": "2022-12-05T13:54:13Z",
+          "pushedAt": "2026-02-24T03:51:52Z",
+          "license": "CC0-1.0",
+          "topics": [
+            "ai",
+            "artificial-intelligence",
+            "awesome-list",
+            "chatgpt",
+            "chatgpt-prompts",
+            "claude",
+            "gemini",
+            "gpt",
+            "gpt-4",
+            "llm",
+            "machine-learning",
+            "nextjs",
+            "open-source",
+            "openai",
+            "prompt-engineering",
+            "prompts",
+            "prompts-chat",
+            "typescript"
+          ],
+          "defaultBranch": "main",
+          "ageInDays": 1176,
+          "recentCommitActivity": 89,
+          "readme": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://prompts.chat/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://prompts.chat/logo.svg\">\n      <img height=\"60\" alt=\"prompts.chat\" src=\"https://prompts.chat/logo.svg\">\n    </picture>\n    <br>\n    prompts.chat\n  </a>\n</h1>\n\n<p align=\"center\">\n  <strong>The world's largest open-source prompt library for AI</strong><br>\n  <sub>Works with ChatGPT, Claude, Gemini, Llama, Mistral, and more</sub>\n</p>\n<p align=\"center\">\n  <sub>formerly known as Awesome ChatGPT Prompts</sub>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://prompts.chat\"><img src=\"https://img.shields.io/badge/Website-prompts.chat-blue?style=flat-square\" alt=\"Website\"></a>\n  <a href=\"https://github.com/sindresorhus/awesome\"><img src=\"https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg\" alt=\"Awesome\"></a>\n  <a href=\"https://huggingface.co/datasets/fka/prompts.chat\"><img src=\"https://img.shields.io/badge/🤗-Hugging_Face-yellow?style=flat-square\" alt=\"Hugging Face\"></a>\n  <a href=\"https://deepwiki.com/f/prompts.chat\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://prompts.chat/prompts\">🌐 Browse Prompts</a> •\n  <a href=\"https://fka.gumroad.com/l/art-of-chatgpt-prompting\">📖 Read the Book</a> •\n  <a href=\"https://raw.githubusercontent.com/f/prompts.chat/main/PROMPTS.md\">📄 View on GitHub</a> •\n  <a href=\"#-self-hosting\">🚀 Self-Host</a>\n</p>\n\n<p align=\"center\">\n  <sub>\n    🏆 Featured in <a href=\"https://www.forbes.com/sites/tjmccue/2023/01/19/chatgpt-success-completely-depends-on-your-prompt/\">Forbes</a> · \n    🎓 Referenced by <a href=\"https://www.huit.harvard.edu/news/ai-prompts\">Harvard</a>, <a href=\"https://etc.cuit.columbia.edu/news/columbia-prompt-library-effective-academic-ai-use\">Columbia</a> · \n    📄 <a href=\"https://scholar.google.com/citations?user=AZ0Dg8YAAAAJ&hl=en\">40+ academic citations</a> · \n    ❤️ <a href=\"https://huggingface.co/datasets/fka/prompts.chat\">Most liked dataset</a> on Hugging Face<br>\n    ⭐ 143k+ GitHub stars · \n    🏅 <a href=\"https://spotlights-feed.github.com/spotlights/prompts-chat/index/\">GitHub Staff Pick</a> · \n    🚀 First prompt library (Dec 2022)\n  </sub>\n</p>\n\n<p align=\"center\">\n  <sub><strong>Loved by AI pioneers:</strong></sub><br>\n  <sub>\n    <a href=\"https://x.com/gdb/status/1602072566671110144\"><strong>Greg Brockman</strong></a> (OpenAI Co-Founder) · \n    <a href=\"https://x.com/woj_zaremba/status/1601362952841760769\"><strong>Wojciech Zaremba</strong></a> (OpenAI Co-Founder) · \n    <a href=\"https://x.com/clementdelangue/status/1830976369389642059\"><strong>Clement Delangue</strong></a> (Hugging Face CEO) · \n    <a href=\"https://x.com/ashtom/status/1887250944427237816\"><strong>Thomas Dohmke</strong></a> (Former GitHub CEO)\n  </sub>\n</p>\n\n---\n\n## What is this?\n\nA curated collection of **prompt examples** for AI chat models. Originally created for ChatGPT, these prompts work great with any modern AI assistant.\n\n| Browse Prompts | Data Formats |\n|----------------|--------------|\n| [prompts.chat](https://prompts.chat/prompts) | [prompts.csv](prompts.csv) |\n| [PROMPTS.md](https://raw.githubusercontent.com/f/prompts.chat/main/PROMPTS.md) | [Hugging Face Dataset](https://huggingface.co/datasets/fka/prompts.chat) |\n\n**Want to contribute?** Add prompts at [prompts.chat/prompts/new](https://prompts.chat/prompts/new) — they sync here automatically.\n\n---\n\n## 📖 The Interactive Book of Prompting\n\nLearn prompt engineering with our **free, interactive guide** — 25+ chapters covering everything from basics to advanced techniques like chain-of-thought reasoning, few-shot learning, and AI agents.\n\n**[Start Reading →](https://fka.gumroad.com/l/art-of-chatgpt-prompting)**\n\n---\n\n## 🎮 Prompting for Kids\n\n<p>\n  <a href=\"https://prompts.chat/kids\">\n    <picture>\n      <source media=\""
+        },
+        "category": "AI/ML",
+        "whyTrending": "作为最大的开源AI提示库，prompts.chat提供丰富的提示模板，满足社区对高质量提示工程的需求，且持续活跃更新。",
+        "targetAudience": "AI提示工程师、内容创作者、开发者",
+        "keyTakeaway": "高质量提示库是提升大语言模型应用效果的关键。",
+        "relevanceScore": 9,
+        "velocitySignal": "stable"
+      },
+      {
+        "repo": {
+          "rank": 6,
+          "name": "CompVis/stable-diffusion",
+          "url": "https://github.com/CompVis/stable-diffusion",
+          "description": "A latent text-to-image diffusion model",
+          "language": "Jupyter Notebook",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 36,
+          "builtBy": [
+            "rromb",
+            "pesser",
+            "patrickvonplaten",
+            "ablattmann",
+            "LuChengTHU"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "CompVis/stable-diffusion",
+          "openIssues": 612,
+          "watchers": 568,
+          "createdAt": "2022-08-10T14:36:44Z",
+          "pushedAt": "2024-06-18T01:53:49Z",
+          "license": "NOASSERTION",
+          "topics": [],
+          "defaultBranch": "main",
+          "ageInDays": 1293,
+          "recentCommitActivity": 0,
+          "readme": "# Stable Diffusion\n*Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:*\n\n[**High-Resolution Image Synthesis with Latent Diffusion Models**](https://ommer-lab.com/research/latent-diffusion-models/)<br/>\n[Robin Rombach](https://github.com/rromb)\\*,\n[Andreas Blattmann](https://github.com/ablattmann)\\*,\n[Dominik Lorenz](https://github.com/qp-qp)\\,\n[Patrick Esser](https://github.com/pesser),\n[Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer)<br/>\n_[CVPR '22 Oral](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) |\n[GitHub](https://github.com/CompVis/latent-diffusion) | [arXiv](https://arxiv.org/abs/2112.10752) | [Project page](https://ommer-lab.com/research/latent-diffusion-models/)_\n\n![txt2img-stable2](assets/stable-samples/txt2img/merged-0006.png)\n[Stable Diffusion](#stable-diffusion-v1) is a latent text-to-image diffusion\nmodel.\nThanks to a generous compute donation from [Stability AI](https://stability.ai/) and support from [LAION](https://laion.ai/), we were able to train a Latent Diffusion Model on 512x512 images from a subset of the [LAION-5B](https://laion.ai/blog/laion-5b/) database. \nSimilar to Google's [Imagen](https://arxiv.org/abs/2205.11487), \nthis model uses a frozen CLIP ViT-L/14 text encoder to condition the model on text prompts.\nWith its 860M UNet and 123M text encoder, the model is relatively lightweight and runs on a GPU with at least 10GB VRAM.\nSee [this section](#stable-diffusion-v1) below and the [model card](https://huggingface.co/CompVis/stable-diffusion).\n\n  \n## Requirements\nA suitable [conda](https://conda.io/) environment named `ldm` can be created\nand activated with:\n\n```\nconda env create -f environment.yaml\nconda activate ldm\n```\n\nYou can also update an existing [latent diffusion](https://github.com/CompVis/latent-diffusion) environment by running\n\n```\nconda install pytorch torchvision -c pytorch\npip install transformers==4.19.2 diffusers invisible-watermark\npip install -e .\n``` \n\n\n## Stable Diffusion v1\n\nStable Diffusion v1 refers to a specific configuration of the model\narchitecture that uses a downsampling-factor 8 autoencoder with an 860M UNet\nand CLIP ViT-L/14 text encoder for the diffusion model. The model was pretrained on 256x256 images and \nthen finetuned on 512x512 images.\n\n*Note: Stable Diffusion v1 is a general text-to-image diffusion model and therefore mirrors biases and (mis-)conceptions that are present\nin its training data. \nDetails on the training procedure and data, as well as the intended use of the model can be found in the corresponding [model card](Stable_Diffusion_v1_Model_Card.md).*\n\nThe weights are available via [the CompVis organization at Hugging Face](https://huggingface.co/CompVis) under [a license which contains specific use-based restrictions to prevent misuse and harm as informed by the model card, but otherwise remains permissive](LICENSE). While commercial use is permitted under the terms of the license, **we do not recommend using the provided weights for services or products without additional safety mechanisms and considerations**, since there are [known limitations and biases](Stable_Diffusion_v1_Model_Card.md#limitations-and-bias) of the weights, and research on safe and ethical deployment of general text-to-image models is an ongoing effort. **The weights are research artifacts and should be treated as such.**\n\n[The CreativeML OpenRAIL M license](LICENSE) is an [Open RAIL M license](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses), adapted from the work that [BigScience](https://bigscience.huggingface.co/) and [the RAIL Initiative](https://www.licenses.ai/) are jointly carrying in the area of responsible AI licensing. See also [the article about the BLOOM Open RAIL license](https://bigscience.huggingfa"
+        },
+        "category": "AI/ML",
+        "whyTrending": "Stable Diffusion作为领先的文本生成图像模型，尽管近期更新不多，但依然因其广泛应用和社区基础保持热度。",
+        "targetAudience": "视觉AI研究者、艺术家、开发者",
+        "keyTakeaway": "开源扩散模型是推动生成式AI视觉创新的基石。",
+        "relevanceScore": 9,
+        "velocitySignal": "stable"
+      },
+      {
+        "repo": {
+          "rank": 7,
+          "name": "abhigyanpatwari/GitNexus",
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+          "language": "TypeScript",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 467,
+          "builtBy": [
+            "abhigyanpatwari",
+            "paulrobello",
+            "cursoragent",
+            "claude",
+            "github-actions"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "abhigyanpatwari/GitNexus",
+          "openIssues": 11,
+          "watchers": 10,
+          "createdAt": "2025-08-02T23:20:31Z",
+          "pushedAt": "2026-02-24T05:43:45Z",
+          "license": "NOASSERTION",
+          "topics": [],
+          "defaultBranch": "main",
+          "ageInDays": 205,
+          "recentCommitActivity": 38,
+          "readme": "# GitNexus\n\n<a href=\"https://trendshift.io/repositories/19809\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/19809\" alt=\"abhigyanpatwari%2FGitNexus | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n**Building git for agent context.**\n\nIndexes any codebase into a knowledge graph — every dependency, call chain, cluster, and execution flow — then exposes it through smart tools so AI agents never miss code.\n\n[![npm version](https://img.shields.io/npm/v/gitnexus.svg)](https://www.npmjs.com/package/gitnexus)\n[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)\n\n\n\nhttps://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72\n\n\n\n> *Like DeepWiki, but deeper.* DeepWiki helps you *understand* code. GitNexus lets you *analyze* it — because a knowledge graph tracks every relationship, not just descriptions.\n\n**TL;DR:** The **Web UI** is a quick way to chat with any repo. The **CLI + MCP** is how you make your AI agent actually reliable — it gives Cursor, Claude Code, and friends a deep architectural view of your codebase so they stop missing dependencies, breaking call chains, and shipping blind edits. Even smaller models get full architectural clarity, making it compete with goliath models.\n\n---\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=abhigyanpatwari/GitNexus&type=date&legend=top-left)](https://www.star-history.com/#abhigyanpatwari/GitNexus&type=date&legend=top-left)\n\n\n## Two Ways to Use GitNexus\n\n|                   | **CLI + MCP**                                            | **Web UI**                                             |\n| ----------------- | -------------------------------------------------------------- | ------------------------------------------------------------ |\n| **What**    | Index repos locally, connect AI agents via MCP                 | Visual graph explorer + AI chat in browser                   |\n| **For**     | Daily development with Cursor, Claude Code, Windsurf, OpenCode | Quick exploration, demos, one-off analysis                   |\n| **Scale**   | Full repos, any size                                           | Limited by browser memory (~5k files), or unlimited via backend mode |\n| **Install** | `npm install -g gitnexus`                                    | No install —[gitnexus.vercel.app](https://gitnexus.vercel.app) |\n| **Storage** | KuzuDB native (fast, persistent)                               | KuzuDB WASM (in-memory, per session)                         |\n| **Parsing** | Tree-sitter native bindings                                    | Tree-sitter WASM                                             |\n| **Privacy** | Everything local, no network                                   | Everything in-browser, no server                             |\n\n> **Bridge mode:** `gitnexus serve` connects the two — the web UI auto-detects the local server and can browse all your CLI-indexed repos without re-uploading or re-indexing.\n\n---\n\n## CLI + MCP (recommended)\n\nThe CLI indexes your repository and runs an MCP server that gives AI agents deep codebase awareness.\n\n### Quick Start\n\n```bash\n# Index your repo (run from repo root)\nnpx gitnexus analyze\n```\n\nThat's it. This indexes the codebase, installs agent skills, registers Claude Code hooks, and creates `AGENTS.md` / `CLAUDE.md` context files — all in one command.\n\nTo configure MCP for your editor, run `npx gitnexus setup` once — or set it up manually below.\n\n### MCP Setup\n\n`gitnexus setup` auto-detects your editors and writes the correct global MCP config. You only need to run it once.\n\n### Editor Support\n\n| Editor                | MCP | Skills | Hooks (auto-augment) | Support        |\n| --------------------- | --- | ------ | -------------------- | -------------- |\n| **Claude Code** | Yes | Yes    | Yes (PreToolUse)     | **Full** |\n| **Cursor**"
+        },
+        "category": "DevTools",
+        "whyTrending": "GitNexus通过浏览器端构建代码知识图谱，结合图形RAG智能代理，极大提升代码探索和理解效率，具备创新性。",
+        "targetAudience": "开发者、代码审查者、AI辅助编程工具开发者",
+        "keyTakeaway": "客户端知识图谱结合智能代理是未来代码智能化的重要方向。",
+        "relevanceScore": 8,
+        "velocitySignal": "rocket"
+      },
+      {
+        "repo": {
+          "rank": 8,
+          "name": "Stremio/stremio-web",
+          "url": "https://github.com/Stremio/stremio-web",
+          "description": "Stremio - Freedom to Stream",
+          "language": "JavaScript",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 272,
+          "builtBy": [
+            "nklhtv",
+            "tymmesyde",
+            "kKaskak",
+            "swetlasg",
+            "Botsy"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "Stremio/stremio-web",
+          "openIssues": 83,
+          "watchers": 93,
+          "createdAt": "2018-06-04T12:45:05Z",
+          "pushedAt": "2026-02-23T15:02:53Z",
+          "license": "GPL-2.0",
+          "topics": [
+            "hacktoberfest",
+            "stremio"
+          ],
+          "defaultBranch": "development",
+          "ageInDays": 2821,
+          "recentCommitActivity": 10,
+          "readme": "# Stremio - Freedom to Stream\n\n[![Build](https://github.com/Stremio/stremio-web/actions/workflows/build.yml/badge.svg)](https://github.com/Stremio/stremio-web/actions/workflows/build.yml)\n[![Github Page](https://img.shields.io/website?label=Page&logo=github&up_message=online&down_message=offline&url=https%3A%2F%2Fstremio.github.io%2Fstremio-web%2F)](https://stremio.github.io/stremio-web/development)\n\nStremio is a modern media center that's a one-stop solution for your video entertainment. You discover, watch and organize video content from easy to install addons.\n\n## Build\n\n### Prerequisites\n\n* Node.js 12 or higher\n* [pnpm](https://pnpm.io/installation) 10 or higher\n\n### Install dependencies\n\n```bash\npnpm install\n```\n\n### Start development server\n\n```bash\npnpm start\n```\n\n### Production build\n\n```bash\npnpm run build\n```\n\n### Run with Docker\n\n```bash\ndocker build -t stremio-web .\ndocker run -p 8080:8080 stremio-web\n```\n\n## Screenshots\n\n### Board\n\n![Board](/assets/screenshots/board.png)\n\n### Discover\n\n![Discover](/assets/screenshots/discover.png)\n\n### Meta Details\n\n![Meta Details](/assets/screenshots/metadetails.png)\n\n## License\n\nStremio is copyright 2017-2023 Smart code and available under GPLv2 license. See the [LICENSE](/LICENSE.md) file in the project for more information.\n"
+        },
+        "category": "Other",
+        "whyTrending": "Stremio作为成熟的媒体中心解决方案，持续更新且社区活跃，满足用户对多源视频内容整合的需求。",
+        "targetAudience": "多媒体开发者、视频内容消费者",
+        "keyTakeaway": "开源多媒体平台依然拥有稳定用户基础和持续创新空间。",
+        "relevanceScore": 6,
+        "velocitySignal": "stable"
+      },
+      {
+        "repo": {
+          "rank": 9,
+          "name": "stan-smith/FossFLOW",
+          "url": "https://github.com/stan-smith/FossFLOW",
+          "description": "Make beautiful isometric infrastructure diagrams",
+          "language": "TypeScript",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 430,
+          "builtBy": [
+            "markmanx",
+            "stan-smith",
+            "semantic-release-bot",
+            "abhinav-1305",
+            "Abrar74774"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "stan-smith/FossFLOW",
+          "openIssues": 15,
+          "watchers": 91,
+          "createdAt": "2025-06-30T14:31:21Z",
+          "pushedAt": "2026-02-24T05:24:37Z",
+          "license": "MIT",
+          "topics": [
+            "devops",
+            "infra",
+            "infrastructure"
+          ],
+          "defaultBranch": "master",
+          "ageInDays": 238,
+          "recentCommitActivity": 2,
+          "readme": "# FossFLOW - Isometric Diagramming Tool <img width=\"30\" height=\"30\" alt=\"fossflow\" src=\"https://github.com/user-attachments/assets/56d78887-601c-4336-ab87-76f8ee4cde96\" />\n\n<p align=\"center\">\n <a href=\"README.md\">English</a> | <a href=\"docs/README.cn.md\">简体中文</a> | <a href=\"docs/README.es.md\">Español</a> | <a href=\"docs/README.pt.md\">Português</a> | <a href=\"docs/README.fr.md\">Français</a> | <a href=\"docs/README.hi.md\">हिन्दी</a> | <a href=\"docs/README.bn.md\">বাংলা</a> | <a href=\"docs/README.ru.md\">Русский</a> | <a href=\"docs/README.id.md\">Bahasa Indonesia</a> | <a href=\"docs/README.de.md\">Deutsch</a>\n</p>\n\n\n<p align=\"center\">\n<a href=\"https://trendshift.io/repositories/15118\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/15118\" alt=\"stan-smith%2FFossFLOW | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<b>Hey!</b> Stan here, if you've used FossFLOW and it's helped you, <b>I'd really appreciate if you could donate something small :)</b> I work full time, and finding the time to work on this project is challenging enough.\nIf you've had a feature that I've implemented for you, or fixed a bug it'd be great if you could :) if not, that's not a problem, this software will always remain free!\n\n\n<b>Also!</b> If you haven't yet, please check out the underlying library this is built on by <a href=\"https://github.com/markmanx/isoflow\">@markmanx</a> I truly stand on the shoulders of a giant here 🫡\n\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P61KBXA3)\n\n<a href=\"https://www.buymeacoffee.com/stan.smith\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n\nThanks,\n\n-Stan\n\n## Try it online\n<p align=\"center\">\nGo to  <b> --> https://stan-smith.github.io/FossFLOW/ <-- </b>\n</p>\n<p align=\"center\">\n\n <a href=\"https://github.com/stan-smith/SlingShot\">\n  Check out my latest project: <b>SlingShot</b> - Dead easy video streaming over QUIC\n </a>\n</p>\n\n------------------------------------------------------------------------------------------------------------------------------\nFossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beautiful isometric diagrams. Built with React and the <a href=\"https://github.com/markmanx/isoflow\">Isoflow</a> (Now forked and published to NPM as fossflow) library, it runs entirely in your browser with offline support.\n\n![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)\n\n- **🤝 [CONTRIBUTING.md](https://github.com/stan-smith/FossFLOW/blob/master/CONTRIBUTING.md)** - How to contribute to the project.\n\n## 🐳 Quick Deploy with Docker\n\n```bash\n# Using Docker Compose (recommended - includes persistent storage)\ndocker compose up\n\n# Or run directly from Docker Hub with persistent storage\ndocker run -p 80:80 -v $(pwd)/diagrams:/data/diagrams stnsmith/fossflow:latest\n```\n\nServer storage is enabled by default in Docker. Your diagrams will be saved to `./diagrams` on the host.\n\nTo disable server storage, set `ENABLE_SERVER_STORAGE=false`:\n```bash\ndocker run -p 80:80 -e ENABLE_SERVER_STORAGE=false stnsmith/fossflow:latest\n```\n\n## Quick Start (Local Development)\n\n```bash\n# Clone the repository\ngit clone https://github.com/stan-smith/FossFLOW\ncd FossFLOW\n\n# Install dependencies\nnpm install\n\n# Build the library (required first time)\nnpm run build:lib\n\n# Start development server\nnpm run dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) in your browser.\n\n## Monorepo Structure\n\nThis is a monorepo containing two packages:\n\n- `packages/fossflow-lib` - React component library for drawing network diagrams (built with Webpack)\n- `packages/fossflow-app` - Progressive Web App which wraps the lib and presents it (built with RSBuild)\n\n### Development Commands\n\n```bash\n# Development\nnpm run dev          # Start app development server\nnpm run dev:lib      # Watch mode for library developme"
+        },
+        "category": "Infrastructure",
+        "whyTrending": "FossFLOW提供美观的等距基础设施图绘制工具，迎合DevOps和基础设施可视化需求，提升架构表达力。",
+        "targetAudience": "DevOps工程师、架构师、技术文档编写者",
+        "keyTakeaway": "视觉化基础设施图是提升团队沟通效率的重要手段。",
+        "relevanceScore": 7,
+        "velocitySignal": "rising"
+      },
+      {
+        "repo": {
+          "rank": 10,
+          "name": "VectifyAI/PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex",
+          "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+          "language": "Python",
+          "totalStars": 0,
+          "forks": 0,
+          "starsToday": 624,
+          "builtBy": [
+            "rejojer",
+            "zmtomorrow",
+            "clarenceluo78"
+          ]
+        },
+        "deepMeta": {
+          "repoName": "VectifyAI/PageIndex",
+          "openIssues": 81,
+          "watchers": 77,
+          "createdAt": "2025-04-01T10:53:54Z",
+          "pushedAt": "2026-02-10T06:31:31Z",
+          "license": "MIT",
+          "topics": [
+            "agent",
+            "agentic-ai",
+            "ai",
+            "context-engineering",
+            "llm",
+            "rag",
+            "reasoning",
+            "retrieval"
+          ],
+          "defaultBranch": "main",
+          "ageInDays": 328,
+          "recentCommitActivity": 0,
+          "readme": "<div align=\"center\">\n  \n<a href=\"https://vectify.ai/pageindex\" target=\"_blank\">\n  <img src=\"https://github.com/user-attachments/assets/46201e72-675b-43bc-bfbd-081cc6b65a1d\" alt=\"PageIndex Banner\" />\n</a>\n\n<br/>\n<br/>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/14736\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14736\" alt=\"VectifyAI%2FPageIndex | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n# PageIndex: Vectorless, Reasoning-based RAG\n\n<p align=\"center\"><b>Reasoning-based RAG&nbsp; ◦ &nbsp;No Vector DB&nbsp; ◦ &nbsp;No Chunking&nbsp; ◦ &nbsp;Human-like Retrieval</b></p>\n\n<h4 align=\"center\">\n  <a href=\"https://vectify.ai\">🏠 Homepage</a>&nbsp; • &nbsp;\n  <a href=\"https://chat.pageindex.ai\">🖥️ Chat Platform</a>&nbsp; • &nbsp;\n  <a href=\"https://pageindex.ai/mcp\">🔌 MCP</a>&nbsp; • &nbsp;\n  <a href=\"https://docs.pageindex.ai\">📚 Docs</a>&nbsp; • &nbsp;\n  <a href=\"https://discord.com/invite/VuXuf29EUj\">💬 Discord</a>&nbsp; • &nbsp;\n  <a href=\"https://ii2abc2jejf.typeform.com/to/tK3AXl8T\">✉️ Contact</a>&nbsp;\n</h4>\n  \n</div>\n\n\n<details open>\n<summary><h3>📢 Latest Updates</h3></summary>\n\n **🔥 Releases:**\n- [**PageIndex Chat**](https://chat.pageindex.ai): The first human-like document-analysis agent [platform](https://chat.pageindex.ai) built for professional long documents. Can also be integrated via [MCP](https://pageindex.ai/mcp) or [API](https://docs.pageindex.ai/quickstart) (beta).\n<!-- - [**PageIndex Chat API**](https://docs.pageindex.ai/quickstart): An API that brings PageIndex's advanced long-document intelligence directly into your applications and workflows. -->\n<!-- - [PageIndex MCP](https://pageindex.ai/mcp): Bring PageIndex into Claude, Cursor, or any MCP-enabled agent. Chat with long PDFs in a reasoning-based, human-like way. -->\n \n **📝 Articles:**\n- [**PageIndex Framework**](https://pageindex.ai/blog/pageindex-intro): Introduces the PageIndex framework — an *agentic, in-context* *tree index* that enables LLMs to perform *reasoning-based*, *human-like retrieval* over long documents, without vector DB or chunking.\n<!-- - [Do We Still Need OCR?](https://pageindex.ai/blog/do-we-need-ocr): Explores how vision-based, reasoning-native RAG challenges the traditional OCR pipeline, and why the future of document AI might be *vectorless* and *vision-based*. -->\n\n **🧪 Cookbooks:**\n- [Vectorless RAG](https://docs.pageindex.ai/cookbook/vectorless-rag-pageindex): A minimal, hands-on example of reasoning-based RAG using PageIndex. No vectors, no chunking, and human-like retrieval.\n- [Vision-based Vectorless RAG](https://docs.pageindex.ai/cookbook/vision-rag-pageindex): OCR-free, vision-only RAG with PageIndex's reasoning-native retrieval workflow that works directly over PDF page images.\n</details>\n\n---\n\n# 📑 Introduction to PageIndex\n\nAre you frustrated with vector database retrieval accuracy for long professional documents? Traditional vector-based RAG relies on semantic *similarity* rather than true *relevance*. But **similarity ≠ relevance** — what we truly need in retrieval is **relevance**, and that requires **reasoning**. When working with professional documents that demand domain expertise and multi-step reasoning, similarity search often falls short.\n\nInspired by AlphaGo, we propose **[PageIndex](https://vectify.ai/pageindex)** — a **vectorless**, **reasoning-based RAG** system that builds a **hierarchical tree index** from long documents and uses LLMs to **reason** *over that index* for **agentic, context-aware retrieval**.\nIt simulates how *human experts* navigate and extract knowledge from complex documents through *tree search*, enabling LLMs to *think* and *reason* their way to the most relevant document sections. PageIndex performs retrieval in two steps:\n\n1. Generate a “Table-of-Contents” **tree structure index** of documents\n2. Perform reasoning-based retrieval through **tree search**\n\n<div align=\"center\">\n  <a href=\"https://pa"
+        },
+        "category": "AI/ML",
+        "whyTrending": "PageIndex创新性地提出无向量数据库的推理型检索增强生成（RAG）方案，适应对上下文管理和推理能力的需求。",
+        "targetAudience": "AI研发人员、知识管理专家、上下文工程师",
+        "keyTakeaway": "无向量RAG方法为文档检索和推理提供新思路。",
+        "relevanceScore": 8,
+        "velocitySignal": "rising"
+      }
+    ],
+    "themes": [
+      "AI代理与上下文工程",
+      "开源提示工程与技能库",
+      "代码智能与知识图谱",
+      "金融数据与量化分析",
+      "基础设施可视化与多媒体平台"
+    ],
+    "hotTake": "当前GitHub趋势表明，AI生态正从单一模型应用转向以代理技能和上下文工程为核心的复杂系统构建，诸如x1xhlol/system-prompts-and-models-of-ai-tools和huggingface/skills等项目引领了这种范式转变。同时，GitNexus的代码知识图谱和PageIndex的无向量RAG技术展示了AI与开发工具深度融合的未来，预示着开发者对智能辅助和高效上下文管理的迫切需求正推动整个行业进入新阶段。"
+  },
+  "content": [
+    {
+      "format": "digest",
+      "title": "GitHub趋势速览 2026-02-24",
+      "content": "# GitHub趋势速览 2026-02-24\n\n今日GitHub趋势显示，AI代理技能与上下文工程项目持续爆发，推动智能助手与多模态AI工具快速演进。金融数据分析与代码智能图谱项目保持活跃，底层基础设施可视化工具同样受到关注，体现开发者多元技术栈在AI赋能下的深度探索。\n\n| 排名 | 仓库                                  | 类别       | 今日新增⭐ | 趋势       | 关键洞察                                   |\n|------|-------------------------------------|------------|-----------|------------|-------------------------------------------|\n| #1   | x1xhlol/system-prompts-and-models-of-ai-tools | AI/ML      | +2,454    | 🚀         | 大量开源系统提示和模型，促进AI工具集成与定制       |\n| #2   | huggingface/skills                   | AI/ML      | +1,451    | 📈         | 统一代理技能格式，推动跨平台AI任务互操作           |\n| #3   | OpenBB-finance/OpenBB               | 数据       | +470      | 稳定       | AI赋能金融数据分析和量化交易，提升决策能力         |\n| #4   | muratcankoylan/Agent-Skills-for-Context-Engineering | AI/ML      | +178      | 📈         | 聚焦上下文工程，优化多代理系统性能                   |\n| #5   | f/prompts.chat                     | AI/ML      | +295      | 稳定       | 最大开源提示库，提升大语言模型应用效果             |\n| #6   | CompVis/stable-diffusion           | AI/ML      | +36       | 稳定       | 领先文本到图像扩散模型，推动生成视觉AI创新          |\n| #7   | abhigyanpatwari/GitNexus           | 开发工具   | +467      | 🚀         | 浏览器端构建代码知识图谱，结合智能代理提升代码探索效率 |\n| #8   | Stremio/stremio-web                | 其他       | +272      | 稳定       | 多源视频内容整合平台，用户基础稳定                   |\n| #9   | stan-smith/FossFLOW                | 基础设施   | +430      | 📈         | 美观等距基础设施图绘制工具，助力架构表达与沟通       |\n| #10  | VectifyAI/PageIndex                | AI/ML      | +624      | 📈         | 无向量数据库推理型RAG方案，创新文档检索与推理       |\n\n---\n\n## Top 3深度解析\n\n**1. x1xhlol/system-prompts-and-models-of-ai-tools**  \n该项目汇聚了数十个开源AI系统提示和模型，满足开发者快速集成和个性化定制不同AI工具的需求。系统提示共享成为推动AI应用迭代的关键资源，助力加速大语言模型的多样化应用场景落地。\n\n**2. huggingface/skills**  \nHugging Face发布的标准化AI代理技能，促进不同平台和模型间的无缝协作。统一格式不仅降低了跨系统集成难度，也为自动化开发和多模态AI任务提供了强大支持，推动AI生态系统的协同发展。\n\n**3. abhigyanpatwari/GitNexus**  \nGitNexus以客户端零服务器架构生成代码知识图谱，内置图形RAG智能代理，极大提升代码理解和浏览效率。此创新结合智能代理的知识图谱工具，预示着AI辅助编程正在迈入更智能、交互更友好的新阶段。\n\n---\n\n## 今日主题\n\n- **AI代理与上下文工程**：以x1xhlol和muratcankoylan项目为代表，系统提示和上下文管理成为构建复杂AI代理的核心技术。\n- **开源提示工程与技能库**：prompts.chat和huggingface/skills引领提示模板和技能标准化浪潮，助力模型效果提升与跨平台协作。\n- **代码智能与知识图谱**：GitNexus展示浏览器端知识图谱与智能代理结合的未来方向，代码探索效率显著提升。\n- **金融数据与量化分析**：OpenBB结合AI技术，推动开源量化工具生态发展。\n- **基础设施可视化与多媒体平台**：FossFLOW等工具加强架构表达，Stremio保持多媒体内容整合的用户活跃度。\n\n---\n\n## 变化速递\n\n- **排名跃升**：x1xhlol/system-prompts-and-models-of-ai-tools与GitNexus双双以爆发式增长登顶，显示AI系统提示与代码智能图谱热度激增。\n- **持续增长**：huggingface/skills与PageIndex保持稳定上升势头，反映AI技能与文档检索创新的长期价值。\n- **稳定活跃**：prompts.chat、OpenBB和Stable Diffusion保持高频更新，社区贡献持续活跃。\n\n---\n\n保持关注，明日带来更多开发者必读趋势！",
+      "wordCount": 187,
+      "hashtags": [
+        "#1",
+        "#2",
+        "#3",
+        "#4",
+        "#5",
+        "#6",
+        "#7",
+        "#8",
+        "#9",
+        "#10"
+      ]
+    },
+    {
+      "format": "tweet_thread",
+      "title": "1/ 每日GitHub趋势速报来啦！🚀 今天我们看到AI代理技能和上下文工程项目火爆，金融量化和代码智能图谱也在发力。一起盘点今天最热的10个开源项目，捕捉技术新风向！#GitHubTrending #开源",
+      "content": "1/ 每日GitHub趋势速报来啦！🚀 今天我们看到AI代理技能和上下文工程项目火爆，金融量化和代码智能图谱也在发力。一起盘点今天最热的10个开源项目，捕捉技术新风向！#GitHubTrending #开源\n\n2/ 🚀 x1xhlol/system-prompts-and-models-of-ai-tools集合了数十种开源AI系统提示和模型，助你快速集成各种智能助手。系统提示成了AI应用迭代的秘密武器！🔧 https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools #AI代理\n\n3/ 📈 huggingface/skills带来标准化代理技能定义，推动AI任务跨平台协作。想让你的AI助手更懂你？这项目必看！🤖 https://github.com/huggingface/skills #提示工程\n\n4/ ➡️ OpenBB-finance/OpenBB是金融数据分析和量化交易利器，结合AI大幅提升洞察力。金融科技和开源AI的完美碰撞，数据控不可错过！📊 https://github.com/OpenBB-finance/OpenBB #量化交易\n\n5/ 📈 muratcankoylan/Agent-Skills-for-Context-Engineering专注上下文工程，帮开发者打造智能代理的“大脑”，提升多代理系统表现，AI复杂系统构建必备！🧠 https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering #上下文工程\n\n6/ ➡️ f/prompts.chat是最大开源AI提示库，社区共享高质量Prompt，助你用好大语言模型，效果立竿见影！🔥 https://github.com/f/prompts.chat #提示工程\n\n7/ 🚀 abhigyanpatwari/GitNexus用浏览器端构建代码知识图谱，结合智能代理，极大提升代码探索效率。未来代码智能化，这项目值得关注！🧩 https://github.com/abhigyanpatwari/GitNexus #代码智能\n\n8/ 📈 stan-smith/FossFLOW提供美观的等距基础设施图绘制工具，帮DevOps和架构师更直观沟通，视觉化技术文档越来越重要啦！🌉 https://github.com/stan-smith/FossFLOW #基础设施可视化\n\n9/ 📈 VectifyAI/PageIndex创新无向量检索增强生成（RAG）方案，开拓上下文管理和推理新思路，AI文档检索黑科技！📑 https://github.com/VectifyAI/PageIndex #AI研发\n\n10/ 总结：今天趋势显示AI代理、上下文与提示工程爆发，金融数据和代码智能持续活跃。想跟紧AI生态最新动态，别忘了关注我，每天带你扫遍GitHub新星！✨ #开源 #每日趋势",
+      "wordCount": 48,
+      "hashtags": [
+        "#GitHubTrending",
+        "#AI"
+      ]
+    },
+    {
+      "format": "newsletter",
+      "title": "开发者快报 2026-02-24",
+      "content": "# 开发者快报 2026-02-24  \n## 聚焦AI代理与上下文工程，代码智能与金融量化持续发力\n\n---\n\n### TL;DR  \n- 🚀 AI代理技能库与系统提示集成项目爆发，x1xhlol/system-prompts-and-models-of-ai-tools引领潮流  \n- 📈 Hugging Face标准化技能、上下文工程和无向量RAG等技术推动AI生态从单模型走向复杂系统  \n- 🧩 金融量化（OpenBB）、代码知识图谱（GitNexus）和基础设施可视化（FossFLOW）多领域持续活跃  \n\n---\n\n### Spotlight：x1xhlol/system-prompts-and-models-of-ai-tools  \n本周GitHub榜首毫无悬念被这个集成了大量开源AI系统提示和模型的项目占据。它不仅汇聚了Claude Code、Cursor、Replit等前沿AI代理工具的系统提示，还囊括了多样化的内部工具和模型，极大地满足了开发者在智能助手和多模态AI工具上的集成与定制需求。  \n\n这体现了AI应用快速迭代的关键：**系统提示与模型共享成为驱动创新的核心资源**。项目活跃度极高，社区贡献频繁，已成为AI开发者、研究人员和工具集成者必备的宝库。  \n\n项目链接：[https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)  \n\n---\n\n### Rising Stars  \n\n- **huggingface/skills**  \n  Hugging Face推出的标准化AI技能定义，推动多平台AI代理任务的互操作性与复用，符合AI生态整合大趋势。  \n  [项目地址](https://github.com/huggingface/skills)  \n\n- **abhigyanpatwari/GitNexus**  \n  浏览器端零服务器代码智能引擎，结合知识图谱与图形RAG代理，革新代码探索体验，展现AI与开发工具深度融合未来。  \n  [项目地址](https://github.com/abhigyanpatwari/GitNexus)  \n\n- **OpenBB-finance/OpenBB**  \n  集成AI的开源金融数据与量化分析平台，助力金融分析师和量化交易者提升决策能力。  \n  [项目地址](https://github.com/OpenBB-finance/OpenBB)  \n\n- **VectifyAI/PageIndex**  \n  创新无向量推理型RAG方案，助力文档索引和上下文管理，是知识管理和AI推理领域的新锐力量。  \n  [项目地址](https://github.com/VectifyAI/PageIndex)  \n\n---\n\n### Hot Take  \n本期趋势突显AI生态的次时代变革：从单一模型应用迅速转向**以代理技能和上下文工程为核心的复杂系统构建**。x1xhlol/system-prompts-and-models-of-ai-tools与huggingface/skills展现了AI代理技能库标准化和复用的广阔前景，凸显开发者对智能助手高效协作和多技能集成的诉求。  \n\n同时，GitNexus的客户端代码知识图谱和PageIndex的无向量RAG方案，表明AI正深度融入开发工具链和知识管理，推动智能辅助编程和高效上下文管理进入新阶段。金融领域的OpenBB结合AI技术，展示了数据驱动决策与量化交易的强劲动力。  \n\n整体来看，开发者正快速拥抱以**上下文为核心、技能为载体、知识图谱为助推的智能系统**，这一趋势将重塑从工具构建到产品交付的整个技术栈。  \n\n---\n\n### Quick Links  \n- muratcankoylan/Agent-Skills-for-Context-Engineering — 多代理上下文工程技能集  \n- f/prompts.chat — 最大开源ChatGPT提示库，支持自托管  \n- CompVis/stable-diffusion — 经典文本生成图像扩散模型  \n- Stremio/stremio-web — 多源视频内容整合媒体中心  \n- stan-smith/FossFLOW — 美观的等距基础设施图绘制工具  \n\n---\n\n感谢关注本期开发者快报，持续跟进GitHub趋势，发现下一个技术风口！🚀  \n下期见~ 👋",
+      "wordCount": 81,
+      "hashtags": []
+    }
+  ],
+  "metadata": {
+    "durationMs": 53613,
+    "model": "gpt-4.1-mini",
+    "llmBackend": "openai",
+    "generatedAt": "2026-02-24T09:50:09.044Z"
+  }
+}

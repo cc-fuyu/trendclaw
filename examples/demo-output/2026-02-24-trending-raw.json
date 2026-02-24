@@ -1,0 +1,176 @@
+{
+  "period": "daily",
+  "language": "any",
+  "scrapedAt": "2026-02-24T09:49:16.832Z",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models",
+      "language": "",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 2454,
+      "builtBy": [
+        "x1xhlol",
+        "pricisTrail",
+        "benja",
+        "paulacavero",
+        "4regab"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "huggingface/skills",
+      "url": "https://github.com/huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 1451,
+      "builtBy": [
+        "burtenshaw",
+        "evalstate",
+        "Madhu3456",
+        "claude",
+        "gary149"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 470,
+      "builtBy": [
+        "jmaslek",
+        "deeleeramone",
+        "colin99d",
+        "DidierRLopes",
+        "montezdesousa"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "language": "Python",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 178,
+      "builtBy": [
+        "muratcankoylan",
+        "claude",
+        "erikpr1994",
+        "stephenthedev",
+        "xue1213888"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 295,
+      "builtBy": [
+        "f",
+        "devisasari",
+        "giorgiop",
+        "sinansonmez",
+        "ersinkoc"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "CompVis/stable-diffusion",
+      "url": "https://github.com/CompVis/stable-diffusion",
+      "description": "A latent text-to-image diffusion model",
+      "language": "Jupyter Notebook",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 36,
+      "builtBy": [
+        "rromb",
+        "pesser",
+        "patrickvonplaten",
+        "ablattmann",
+        "LuChengTHU"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 467,
+      "builtBy": [
+        "abhigyanpatwari",
+        "paulrobello",
+        "cursoragent",
+        "claude",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Stremio/stremio-web",
+      "url": "https://github.com/Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 272,
+      "builtBy": [
+        "nklhtv",
+        "tymmesyde",
+        "kKaskak",
+        "swetlasg",
+        "Botsy"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "stan-smith/FossFLOW",
+      "url": "https://github.com/stan-smith/FossFLOW",
+      "description": "Make beautiful isometric infrastructure diagrams",
+      "language": "TypeScript",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 430,
+      "builtBy": [
+        "markmanx",
+        "stan-smith",
+        "semantic-release-bot",
+        "abhinav-1305",
+        "Abrar74774"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "totalStars": 0,
+      "forks": 0,
+      "starsToday": 624,
+      "builtBy": [
+        "rejojer",
+        "zmtomorrow",
+        "clarenceluo78"
+      ]
+    }
+  ],
+  "errors": []
+}
