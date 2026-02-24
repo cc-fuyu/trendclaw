@@ -1,0 +1,15 @@
+# Node
+node_modules
+dist
+npm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+scout_output
+
+# IDE
+.vscode
+.idea

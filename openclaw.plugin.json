@@ -1,0 +1,47 @@
+{
+  "id": "trending-scout",
+  "name": "GitHub Trending Scout",
+  "version": "0.1.0",
+  "description": "Scrape GitHub Trending → AI-analyze repos → generate developer content (tweets, blog posts, newsletters) → auto-publish.",
+  "author": "trending-scout contributors",
+  "license": "MIT",
+  "skills": ["skills/trending-scout"],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "analysisModel": {
+        "type": "string",
+        "default": "gpt-4.1-mini",
+        "description": "LLM model for trend analysis and content generation."
+      },
+      "language": {
+        "type": "string",
+        "default": "English",
+        "description": "Output language for generated content."
+      },
+      "topN": {
+        "type": "number",
+        "default": 10,
+        "minimum": 3,
+        "maximum": 25,
+        "description": "Number of trending repos to analyze."
+      },
+      "trendingPeriod": {
+        "type": "string",
+        "enum": ["daily", "weekly", "monthly"],
+        "default": "daily",
+        "description": "GitHub trending time range."
+      },
+      "contentFormats": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["tweet_thread", "blog_post", "newsletter", "digest"]
+        },
+        "default": ["digest"],
+        "description": "Content formats to generate."
+      }
+    },
+    "additionalProperties": false
+  }
+}
