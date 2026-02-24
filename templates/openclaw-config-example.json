@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.openclaw.ai/schema/config.json",
+  "_comment": "GitHub Trending Scout — Full OpenClaw Integration Example",
+
+  "agents": {
+    "defaults": {
+      "heartbeat": {
+        "every": "30m",
+        "target": "last",
+        "activeHours": { "start": "08:00", "end": "22:00" }
+      }
+    }
+  },
+
+  "mcpServers": {
+    "trending-scout": {
+      "command": "node",
+      "args": ["./node_modules/openclaw-github-trending-scout/dist/mcp-server.js"],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "SCOUT_LLM_BACKEND": "openai",
+        "SCOUT_LLM_MODEL": "gpt-4.1-mini"
+      }
+    }
+  },
+
+  "plugins": {
+    "trending-scout": {
+      "llm": {
+        "backend": "openai",
+        "model": "gpt-4.1-mini"
+      },
+      "enableDeepMeta": true,
+      "enableDiff": true,
+      "language": "English",
+      "topN": 10,
+      "trendingPeriod": "daily",
+      "contentFormats": ["digest", "tweet_thread"]
+    }
+  },
+
+  "tools": {
+    "alsoAllow": ["lobster", "github_trending_scout"]
+  },
+
+  "_cron_examples": {
+    "daily_digest": "openclaw cron add --name 'Trending Scout Daily' --cron '0 9 * * *' --tz 'America/New_York' --session isolated --model sonnet --announce --message 'Run github_trending_scout with formats digest,tweet_thread'",
+    "weekly_newsletter": "openclaw cron add --name 'Trending Scout Weekly' --cron '0 10 * * 1' --tz 'America/New_York' --session isolated --model opus --announce --message 'Run github_trending_scout with period weekly, formats newsletter,blog_post'",
+    "lobster_workflow": "openclaw cron add --name 'Trending Scout Pipeline' --cron '0 9 * * *' --session isolated --message '/lobster workflows/trending-scout.lobster'"
+  }
+}

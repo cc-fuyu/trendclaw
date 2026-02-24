@@ -2,17 +2,30 @@
 
 [English](./README.md) | [中文](./README_CN.md)
 
-**抓取 GitHub Trending → 丰富化深度元数据 → AI 分析趋势与历史 → 生成开发者内容（推文、博客、周报）→ 自动发布。**
+**一个深度集成了 OpenClaw 的数据与内容生产线：抓取 GitHub Trending → 丰富化深度元数据 → AI 分析趋势与历史 → 生成开发者内容（推文、博客、周报）→ 自动发布。**
 
-这是一个 **OpenClaw 插件**和**独立的 CLI 工具**，运行一个完整的数据和内容生产线。它帮助开发者、内容创作者和社区经理保持对 GitHub 趋势的关注，并自动生成富有洞察力、可直接发布的内容。
+这是一个 **OpenClaw 插件**和**独立的 CLI 工具**，它展示了如何构建一个与 OpenClaw 生态系统深度集成的生产级 AI 代理。它不仅仅是一个带配置文件的 CLI 工具，更是一个**原生的 OpenClaw 公民**。
 
 ![Scout CLI Demo](https://i.imgur.com/your-demo-image.gif) <!-- TODO: 添加一个真实的演示动图 -->
 
+## ✨ OpenClaw 的差异化：深度集成
+
+这个项目不仅仅是与 OpenClaw *兼容*，更是*为* OpenClaw *而生*。它利用了 6 个核心生态系统特性，成为了一个真正的 AI 原生自动化引擎。
+
+| 特性 | 我们如何使用 | 价值主张 |
+| :--- | :--- | :--- |
+| **1. Lobster 工作流** | 整个 pipeline 在 `trending-scout.lobster` 中定义，这是一个带有人工审批门的确定性、多步骤工作流。 | **可靠与可恢复**：保证执行顺序，能在失败后恢复，并允许人工介入发布环节。 |
+| **2. Cron 作业** | 一键式设置脚本 (`scripts/setup-cron.sh`) 在 OpenClaw 的原生调度器中注册一个每日作业。 | **自动化与轻松**：一次设置，永久有效。每天将趋势报告推送到你的聊天应用。 |
+| **3. MCP 服务器** | 作为一个原生 MCP 服务器运行 (`dist/mcp-server.js`)，将 `github_trending_scout` 工具暴露给任何代理。 | **互操作与可组合**：任何兼容 MCP 的代理（OpenClaw、Claude Desktop 等）都可以将其作为构建块。 |
+| **4. Heartbeat 心跳** | 提供一个 `HEARTBEAT.md` 模板，将趋势检查集成到代理的常规感知周期中。 | **情境感知与主动**：代理可以根据对话或空闲状态决定*何时*运行 scout。 |
+| **5. Announce 频道** | Cron 作业使用 `--announce` 和 `--channel` 将生成的内容直接推送到 WhatsApp、Telegram、Discord 等。 | **直接交付**：无需检查文件，报告直接送到你手中。 |
+| **6. Skill 与插件** | 打包为在 ClawHub 上可发现的 Skill 和可安装的 npm 包。 | **轻松分发**：只需 `openclaw plugins install trending-scout` 即可。 |
+
 ## 🚀 快速开始 (独立 CLI)
 
-无需安装。仅需 Node.js v18+ 环境。
+为了快速测试，你可以将其作为标准的 Node.js CLI 工具运行。
 
-1.  **设置 API 密钥 (使用 OpenAI 后端时)**：
+1.  **设置 API 密钥 (如果使用 OpenAI)**：
     ```bash
     export OPENAI_API_KEY="sk-..."
     ```
@@ -27,11 +40,6 @@
     ```
 
 3.  **查看输出**：结果保存在 `./scout_output/` 目录中。
-
-    ```bash
-    # 查看所有选项
-    npx trending-scout --help
-    ```
 
 ## 📖 真实 Demo 输出 (2026年2月24日)
 
@@ -115,93 +123,6 @@ GitNexus以客户端零服务器架构生成代码知识图谱，内置图形RAG
 
 </details>
 
-<details>
-<summary><strong>📰 周报 (Newsletter)</strong> &mdash; 一份为您的订阅者准备的深度解读版周报。</summary>
-
----
-
-# 开发者快报 2026-02-24
-
-## 聚焦AI代理与上下文工程，代码智能与金融量化持续发力
-
----
-
-### TL;DR
-
-- 🚀 AI代理技能库与系统提示集成项目爆发，x1xhlol/system-prompts-and-models-of-ai-tools引领潮流
-- 📈 Hugging Face标准化技能、上下文工程和无向量RAG等技术推动AI生态从单模型走向复杂系统
-- 🧩 金融量化（OpenBB）、代码知识图谱（GitNexus）和基础设施可视化（FossFLOW）多领域持续活跃
-
----
-
-### Spotlight：x1xhlol/system-prompts-and-models-of-ai-tools
-
-本周GitHub榜首毫无悬念被这个集成了大量开源AI系统提示和模型的项目占据。它不仅汇聚了Claude Code、Cursor、Replit等前沿AI代理工具的系统提示，还囊括了多样化的内部工具和模型，极大地满足了开发者在智能助手和多模态AI工具上的集成与定制需求。
-
-这体现了AI应用快速迭代的关键：**系统提示与模型共享成为驱动创新的核心资源**。项目活跃度极高，社区贡献频繁，已成为AI开发者、研究人员和工具集成者必备的宝库。
-
-项目链接：[https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-
----
-
-### Rising Stars
-
-- **huggingface/skills**: Hugging Face推出的标准化AI技能定义，推动多平台AI代理任务的互操作性与复用，符合AI生态整合大趋势。
-  [项目地址](https://github.com/huggingface/skills)
-
-- **abhigyanpatwari/GitNexus**: 浏览器端零服务器代码智能引擎，结合知识图谱与图形RAG代理，革新代码探索体验，展现AI与开发工具深度融合未来。
-  [项目地址](https://github.com/abhigyanpatwari/GitNexus)
-
-- **OpenBB-finance/OpenBB**: 集成AI的开源金融数据与量化分析平台，助力金融分析师和量化交易者提升决策能力。
-  [项目地址](https://github.com/OpenBB-finance/OpenBB)
-
-- **VectifyAI/PageIndex**: 创新无向量推理型RAG方案，助力文档索引和上下文管理，是知识管理和AI推理领域的新锐力量。
-  [项目地址](https://github.com/VectifyAI/PageIndex)
-
----
-
-### Hot Take
-
-本期趋势突显AI生态的次时代变革：从单一模型应用迅速转向**以代理技能和上下文工程为核心的复杂系统构建**。x1xhlol/system-prompts-and-models-of-ai-tools与huggingface/skills展现了AI代理技能库标准化和复用的广阔前景，凸显开发者对智能助手高效协作和多技能集成的诉求。
-
-同时，GitNexus的客户端代码知识图谱和PageIndex的无向量RAG方案，表明AI正深度融入开发工具链和知识管理，推动智能辅助编程和高效上下文管理进入新阶段。金融领域的OpenBB结合AI技术，展示了数据驱动决策与量化交易的强劲动力。
-
-整体来看，开发者正快速拥抱以**上下文为核心、技能为载体、知识图谱为助推的智能系统**，这一趋势将重塑从工具构建到产品交付的整个技术栈。
-
----
-
-### Quick Links
-
-- muratcankoylan/Agent-Skills-for-Context-Engineering — 多代理上下文工程技能集
-- f/prompts.chat — 最大开源ChatGPT提示库，支持自托管
-- CompVis/stable-diffusion — 经典文本生成图像扩散模型
-- Stremio/stremio-web — 多源视频内容整合媒体中心
-- stan-smith/FossFLOW — 美观的等距基础设施图绘制工具
-
----
-
-感谢关注本期开发者快报，持续跟进GitHub趋势，发现下一个技术风口！🚀
-
-下期见~ 👋
-
-</details>
-
-## ✨ 核心功能
-
-- **📈 多源数据管道**：抓取趋势数据，通过 GitHub API 丰富深度元数据，并与历史快照进行对比。
-- **🧠 AI 驱动的分析**：使用可配置的 LLM 后端（OpenAI、Ollama、OpenClaw）识别分类、速度信号和关键主题。
-- **✍️ 多格式内容生成**：自动生成摘要、推文串、博客文章和周报。
-- **🔌 灵活与可扩展**：可作为独立的 CLI 工具或 OpenClaw 插件使用。
-
-## 🛠️ 工作原理
-
-该管道通过四个主要阶段进行编排：
-
-1.  **抓取器 Agent**：一个轻量级、无依赖的 HTML 解析器，用于抓取 `github.com/trending`。
-2.  **丰富器 Agent**：从 GitHub API 获取深度元数据，并与前一天的快照计算差异。
-3.  **分析器 Agent**：从所有数据源构建丰富的上下文，并使用 LLM 提取结构化洞察。
-4.  **内容生成器 Agent**：针对每种请求的格式，使用专门的提示将结构化分析转化为精美的、可发布的内容。
-
 ## 🔧 开发
 
 ```bash
@@ -212,7 +133,7 @@ cd github-trending-scout
 # 安装依赖
 npm install
 
-# 构建 TypeScript 代码
+# 构建 TypeScript
 npm run build
 
 # 直接运行 CLI

@@ -1,38 +1,92 @@
 # GitHub Trending Scout
 
-Scrape, analyze, and generate content from GitHub Trending.
+Scrape GitHub Trending, enrich with deep metadata, AI-analyze trends with history comparison, and generate multi-format developer content (digest, tweet thread, blog post, newsletter).
 
-## Usage
+## Activation
 
+When the user asks about GitHub trending, open-source trends, what's hot on GitHub, or wants developer content about trending repos, activate this skill.
+
+Trigger phrases: "what's trending on GitHub", "GitHub trending", "trending repos", "developer digest", "tech newsletter", "what's new in open source"
+
+## Integration Modes
+
+This skill supports multiple OpenClaw integration modes:
+
+### Mode 1: MCP Server (Recommended)
+The scout runs as an MCP server. Configure in your openclaw config:
+```json
+{
+  "mcpServers": {
+    "trending-scout": {
+      "command": "node",
+      "args": ["./node_modules/openclaw-github-trending-scout/dist/mcp-server.js"]
+    }
+  }
+}
 ```
-/scout [language=<lang>] [period=<daily|weekly|monthly>] [top=<n>] [formats=<f1,f2>]
+
+### Mode 2: Plugin Tool
+If installed as a plugin, use the `github_trending_scout` tool directly:
+```
+/github_trending_scout language=typescript formats=digest,tweet_thread
 ```
 
-## What it does
+### Mode 3: Lobster Workflow
+For deterministic multi-step execution with approval gates:
+```
+/lobster workflows/trending-scout.lobster period=daily formats=digest,newsletter
+```
 
-This skill runs a full pipeline to analyze GitHub trends and generate developer content.
+### Mode 4: Cron Automation
+Set up daily automated reports:
+```bash
+openclaw cron add --name "Trending Scout" --cron "0 9 * * *" --session isolated --announce \
+  --message "Run github_trending_scout with formats digest,tweet_thread"
+```
 
-1.  **Scrape**: Fetches the latest trending repos.
-2.  **Analyze**: Uses an LLM to categorize repos, explain why they are trending, and identify key themes.
-3.  **Generate**: Creates content in your specified formats (digest, tweet_thread, blog_post, newsletter).
+### Mode 5: Heartbeat Integration
+Add to your HEARTBEAT.md:
+```
+- Check if today's GitHub trending digest has been generated
+  - If not and it's past 9AM: Run github_trending_scout and announce the digest
+```
 
-The output is a full report containing all generated content pieces.
+## Tool Parameters
 
-## Parameters
+- `language` (optional): Filter by programming language (e.g., "python", "typescript")
+- `period` (optional): "daily" | "weekly" | "monthly" (default: "daily")
+- `topN` (optional): Number of repos to analyze, 3-25 (default: 10)
+- `formats` (optional): Array of content formats to generate
+  - "digest": Scannable Markdown summary with tables and deep dives
+  - "tweet_thread": Viral-style X/Twitter thread with emoji and hashtags
+  - "blog_post": 800-word article grouping repos by theme
+  - "newsletter": Developer newsletter with spotlight and rising stars
+- `outputLanguage` (optional): Output language (default: "English")
 
-- `language`: Filter by programming language (e.g., `typescript`).
-- `period`: `daily` (default), `weekly`, or `monthly`.
-- `top`: Number of repos to analyze (default: 10).
-- `formats`: Comma-separated list of formats to generate (default: `digest`).
+## Output
+
+The tool returns a structured report containing:
+1. **Trending Data**: Raw scraped data with deep GitHub API metadata
+2. **Historical Diff**: Comparison with yesterday (new entries, dropped, risers, fallers)
+3. **AI Analysis**: Categories, velocity signals, themes, hot take
+4. **Generated Content**: Ready-to-publish content in requested formats
+
+## LLM Backend
+
+Supports multiple backends via configuration:
+- `openai`: OpenAI API (default)
+- `ollama`: Local models via Ollama (zero cost, zero data leakage)
+- `openclaw`: OpenClaw's native model gateway
 
 ## Examples
 
 ```
-/scout
-/scout language=rust period=weekly top=5
-/scout formats=tweet_thread,blog_post
+"What's trending on GitHub today?"
+→ Runs with defaults: daily, top 10, digest format
+
+"Generate a Chinese tweet thread about this week's Python trends"
+→ language=python, period=weekly, formats=tweet_thread, outputLanguage=Chinese
+
+"Set up a daily trending newsletter for my team"
+→ Suggests cron setup with newsletter format
 ```
-
-## Requirements
-
-Requires the `trending-scout` plugin to be installed and the `github_trending_scout` tool to be enabled.

@@ -1,17 +1,21 @@
 {
   "name": "openclaw-github-trending-scout",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "OpenClaw plugin: GitHub Trending → AI Analysis → Developer Content Generation → Auto-publish pipeline",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "bin": {
-    "trending-scout": "dist/cli.js"
+    "trending-scout": "dist/cli.js",
+    "trending-scout-mcp": "dist/mcp-server.js"
   },
   "files": [
     "dist",
     "openclaw.plugin.json",
-    "skills"
+    "skills",
+    "workflows",
+    "templates",
+    "scripts"
   ],
   "scripts": {
     "build": "tsc",
